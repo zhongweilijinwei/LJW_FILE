@@ -1,0 +1,371 @@
+
+// v7或v4等兼容包的一些说明：
+android support repository主要是方便在gradle中使用android support libraries，
+因为Google并没有把这些库发布到maven center或者jcenter去，而是使用了Google自己的maven仓库。（也就是在sdk\extras\android\m2repository下(\com\android\support\appcompat-v7)）
+support library就是提供suppport库给你用的，比如support v4,support v7。
+
+google repository主要是给gradle使用的，方面添加比如Google Play Service的引用。
+这样gradle就可以使用google的maven仓库中的库了，
+而不需要去maven centee或者jcenter了
+
+作者：hi大头鬼hi
+链接：
+http://www.zhihu.com/question/31935836/answer/53921551
+来源：
+知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+
+new Handler().postDelayed(new Runnable() {
+			@Override
+			public void run() {
+				startActivity(new Intent(WelcomeActivity.this,MainActivity.class));
+				finish();
+			}
+		},1600);
+
+
+利用Activity.runOnUiThread(Runnable)把更新ui的代码创建在Runnable中，然后在需要更新ui时，把这个Runnable对象传给Activity.runOnUiThread(Runnable)。 这样Runnable对像就能在ui程序中被调用。如果当前线程是UI线程,那么行动是立即执行。如果当前线程不是UI线程,操作是发布到事件队列的UI线程
+[html]  
+FusionField.currentActivity.runOnUiThread(new Runnable()    
+        {    
+            public void run()    
+            {    
+                Toast.makeText(getApplicationContext(), , "Update My UI",    
+                        Toast.LENGTH_LONG).show();    
+            }    
+    
+        });    
+
+
+//把数组转成集合，mStrings是数组
+
+Arrays.asList(mStrings)
+
+
+
+EditText 设置空时的提示信息：
+editTexttitle.setError("标题不能为空");
+editTexttitle.requestFocus();
+
+
+
+List<A> list=Arrays.asList(new A());
+
+
+android.support.v4.widget.DrawerLayout //官方提供的侧滑菜单
+
+android.support.v4.widget.SwipeRefreshLayout //官方提供的下拉刷新控件
+
+com.balysv.materialripple.MaterialRippleLayout  //实现点击有波纹的材料设计控件，分xml初始化和代码初始化
+
+
+com.rengwuxian.materialedittext.MaterialEditText //材料设计输入框
+
+Snackbar//类似于Toast的显示工具
+compile 'com.pnikosis:materialish-progress:1.5' //最新设计材料的进度条
+
+compile 'com.nispok:snackbar:2.10.10' //类似于toast的提示工具
+
+compile 'com.melnykov:floatingactionbutton:1.3.0'//浮动的一个button
+
+http://loopj.com/android-async-http/     //一个网络异步请求开源框架，上传下载文件
+
+
+
+//界面适配内容的另一种方式，设置屏幕渐变
+final View view = View.inflate(this, R.layout.app_start, null);
+        setContentView(view);
+        // 渐变展示启动屏
+        AlphaAnimation aa = new AlphaAnimation(0.5f, 1.0f);
+        aa.setDuration(800);
+        view.startAnimation(aa);
+        aa.setAnimationListener(new AnimationListener() {
+            @Override
+            public void onAnimationEnd(Animation arg0) {
+                redirectTo();
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {}
+
+            @Override
+            public void onAnimationStart(Animation animation) {}
+        });
+    }
+
+
+//解决dialog中的editext点击显示软键盘把dialog覆盖
+
+//设置dialog的软件盘属性
+dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE |
+                WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
+
+//在配置文件显示dialog的activity接点下设置
+android:windowSoftInputMode="adjustNothing"
+
+  
+view.setEnabled(false); //设置控件不激活    作用是使那个调用此方法的控件对象可用或者不可用，比如一个按钮(button)，你想让它不可用（不能点击，变灰），就可以对button对象调用setEnabled(false)，反之，使用setEnabled(true)可以设置为可用。
+
+
+
+
+<android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:animateLayoutChanges="true"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                app:divider="@drawable/horizontal_line"
+                app:showDividers="beginning|middle">
+//该父标签 可以设置它的子标签动画显示与动画隐藏
+
+
+<Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" /> //一个用于排版的标签，
+
+
+
+Color.parseColor("#464646")
+
+
+view.setRotation(225 * value); //view  自带的一个旋转方法
+
+透明度的颜色值 是在颜色的基础上 前面加两位阿拉伯数字 类似#91ffffff  白色91的透明度 六个f是白色
+
+
+listView.setEmptyView(emptyView);//当内容为空的时候 给listView 添加一个视图
+
+
+
+一，非常重要的一些技术文章链接：
+
+
+http://blog.zhaiyifan.cn/            与技术周报一样吊的技术网站
+http://www.open-open.com/lib/view/open1453008154245.html                                       //android 网络请求研究
+http://www.cnblogs.com/codingmyworld/archive/2011/09/12/2174255.html                   //Handler原理一篇不错的文章
+1，http://www.jianshu.com/p/0acc12c29c1b    // Android开发：Translucent System Bar 的最佳实践也就是设置系统通知栏
+
+2，http://www.jianshu.com/p/79604c3ddcae      //最详细的 Toolbar 开发实践总结
+3 http://www.cnblogs.com/oyjt/p/4762640.html      //Toolbar样式 
+4，http://blog.csdn.net/guolin_blog/article/details/18234477                //Toolbar添加功能
+10,http://blog.csdn.net/a1304317638/article/details/8478223    //样式与主题的讲解
+
+3，http://blog.csdn.net/morgan_xww/article/details/9372285#comments    //Android TouchEvent事件传递机制
+
+4，http://blog.csdn.net/guolin_blog/article/details/9097463   //android 事件分发机制（上）
+
+5，http://blog.csdn.net/loongggdroid/article/details/19118475  //android 事件分发机制(下)
+
+6，http://jakewharton.github.io/butterknife/     //butterknife官方文档
+
+7，https://tinypng.com/                      //高效压缩图片网址
+
+
+
+9，http://hukai.me/android-training-course-in-chinese/index.html    //Android官方培训课程中文版
+
+
+
+11，http://fir.im/       //项目托管平台
+
+12，http://blog.csdn.net/lmj623565791/article/details/38902805/       //通用Adapter
+
+13，http://android-mirror.bugly.qq.com:8080/include/usage.html         sdk更新镜像地址
+
+14，http://blog.csdn.net/innost/article/details/48228651            //深入理解Android之Gradle 
+
+15，http://www.jianshu.com/p/02cb9a0eb2a0        //Android Studio中Gradle使用详解
+
+16,http://jijiaxin89.com/2015/08/29/gradle-use-note/             //Gradle 用法总结 
+
+17，http://www.csdn.net/article/2015-08-10/2825420/2                //Android项目中如何用好构建神器Gradle？
+
+17,http://ticktick.blog.51cto.com/823160/1688586               //Gradle与Makefile构建工具的对比 
+
+17，http://blog.csdn.net/lzyzsd/article/details/46934187        //三篇很不错的Gradle文章
+17，http://www.kancloud.cn/kancloud/gradle-for-android/52025  //Gradle Android Plugin 中文手册 
+
+17，http://blog.csdn.net/loongggdroid/article/details/47037413                //Android Studio之gradle的配置与介绍 
+95,http://www.open-open.com/lib/view/open1421580998718.html                              // android studio 导入eclipse项目
+17，http://www.cnblogs.com/shortboy/p/4519860.html                                                   // 关于Eclipse如何加入Gradle文件与Android Studio两个平台一起开发
+18，https://www.aswifter.com/2015/07/07/android-studio-project-struct/                    //Android Studio项目目录结构介绍
+
+17，https://github.com/tianzhijiexian/Android-Best-Practices/blob/master/2015.9/reflect/reflect.md     //Java反射最佳实践
+
+18,http://bxbxbai.gitcafe.io/2015/08/16/talk-about-bybird-app/        //谈谈App混合开发 
+
+19,http://blog.csdn.net/lmj623565791/article/details/47911083           //Android OkHttp完全解析 是时候来了解OkHttp了 
+
+20,http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0327/2650.html        //比Picasso更强大，Google推荐的图片加载库Glide介绍
+20，   http://mrfu.me/2016/02/27/Glide_Getting_Started/                                              //Glide介绍大全
+21，http://www.jianshu.com/p/4a3177b57949?utm_campaign=maleskine&utm_content=note&utm_medium=writer_share&utm_source=weibo         //Glide 一个专注于平滑滚动的图片加载和缓存库（显示圆形图片）
+
+
+
+23，http://blog.csdn.net/whu_zhangmin/article/details/42294141            //Android使用UncaughtExceptionHandler捕获全局异常 
+23，http://geek.csdn.net/news/detail/50839       //Android平台的崩溃捕获机制及实现
+24,http://blog.csdn.net/androidwifi/article/details/17725989/           // android中的文件操作详解以及内部存储和外部存储 
+
+25，http://luckyandyzhang.github.io/2016/02/04/Android%E5%BC%80%E5%8F%91%E4%B8%AD%E4%B8%80%E4%BA%9B%E8%A2%AB%E5%86%B7%E8%90%BD%E4%BD%86%E5%8D%B4%E5%BE%88%E6%9C%89%E7%94%A8%E7%9A%84%E7%B1%BB%E5%92%8C%E6%96%B9%E6%B3%95/                  // Android开发中一些被冷落但却很有用的类和方法
+
+26 ，http://www.zhihu.com/question/33636939     //Android开发中，有哪些让你觉得相见恨晚的方法、类或接口？
+
+27，http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0718/3197.html       //浮动按钮讲解 （谷歌提供的浮动按钮）
+
+28，http://www.liaohuqiu.net/cn/posts/the-pull-to-refresh-in-my-eyes/#comment-2111797440     //下拉刷新讲解
+28，http://blog.csdn.net/guolin_blog/article/details/9255575         //下拉刷新讲解
+
+29，https://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=403263974&idx=1&sn=b0315addbc47f3c38e65d9c633a12cd6&scene=0&key=41ecb04b0511100390dcd25b8d443be2a357c0de12cdba7e7b1c4d06e1c2a9331881b1697239b4a3b89b86ef42a7eba9&ascene=0&uin=MTYzMjY2MTE1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.2+build%2815C50%29&version=11020201&pass_ticket=9p5lnIh3K3G8I2FvfncYkoGNOueUiq1%2B6ELLdgUwkGc%3D          //图片内存消耗大小技术 和一些解决办法
+29，http://blog.csdn.net/hudashi/article/details/7856519    //计算加载图片耗内存大小
+30，http://www.cnblogs.com/wanqieddy/archive/2011/11/25/2263381.html       // Android有效解决加载大图片时内存溢出的问题
+30，http://blog.csdn.net/guolin_blog/article/details/9316683               //Android高效加载大图、多图解决方案，有效避免程序OOM 
+31，http://blog.csdn.net/a396901990/article/details/38904543      //ANDROID内存优化(大汇总——全) 
+
+32，http://www.cnblogs.com/zdz8207/archive/2012/07/23/2605377.html            //Android 如何判断一个应用在运行
+
+33，http://www.jianshu.com/p/224e2479da18     //点击系统通知，打开响应界面的实现思路
+
+34，http://blog.csdn.net/guolin_blog/article/details/28863651         //Android DiskLruCache完全解析，硬盘缓存的最佳方案 
+
+35，http://www.infoq.com/cn/articles/android-in-depth-dalvik     //深入理解Android（二）：Java虚拟机Dalvik
+35，http://www.infoq.com/cn/android-in-depth                     //深入理解Android
+36，http://blog.csdn.net/guolin_blog/article/details/47803149     //Android静默安装实现方案，仿360手机助手秒装和智能安装功能
+
+37，http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/1217/3782.html       //InstaMaterial：正确处理RecyclerView动画
+
+38，http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=402077566&idx=1&sn=def3337205c3aec5e0fde2476ee03397&scene=0&key=ac89cba618d2d976159e30761eefe9953dc2030a7d72c1872c445a8caaa0f1d3cc4eb416a1c7cfb82651db48d11f3f90&ascene=0&uin=MjAyNzY1NTU%3D&devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.11.1+build%2815B42%29&version=11020201&pass_ticket=Ot%2FkhKXqAqrGFzCH568zK5zy%2FSd6Yamb01L2dKV6dtY%3D      //H5 缓存机制浅析 移动端 Web 加载性能优化 
+
+39，http://blog.zhaiyifan.cn/2015/11/20/HotPatchCompare/        //各大热补丁方案分析和比较 
+
+40，http://mp.weixin.qq.com/s?__biz=MzA3Mjk1MjA4Nw==&mid=400452659&idx=1&sn=841b49b875ec3b307f261ed52a7d9c4e&scene=23&srcid=1119JWRt0adNwGxTHiyok460#rd   //Android App 线上热修复方案 
+41，http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=400118620&idx=1&sn=b4fdd5055731290eef12ad0d17f39d4a&scene=0&uin=MTYzMjY2MTE1&key=04dce534b3b035ef49d8b47c3f8dc1399d737e94c7a40b1a38561c6fcf48d000a1f40ec4bf530d2534dd865875c0c8c7&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.1+build%2815B42%29&version=11020201&lang=en&pass_ticket=1zsiC5hQfwATA4R3ndq32UtcvN%2B5kATcavEv4xN2HMY%3D    //安卓App热补丁动态修复技术介绍
+
+42，https://github.com/tianzhijiexian/Android-Best-Practices/blob/master/2015.10/adapter/adapter.md        //Adapter最佳实践
+
+43，http://blog.aaapei.com/article/2015/02/facebookxin-wen-ye-listviewyou-hua           //facebook新闻页ListView优化
+
+44，http://ragnraok.github.io/textview-pre-render-research.html            //TextView预渲染研究
+45，http://www.devtf.cn/?p=515                                              //通过自定义viewGroup来优化item，从而减少重复的measure
+
+46，http://www.ithao123.cn/content-10528233.html                             //android ListView  多布局 复用convertView的规则
+
+
+47，http://blog.csdn.net/guolin_blog/article/details/49738023            //Android安全攻防战，反编译与混淆技术完全解析（上） 
+
+52,http://blog.zhaiyifan.cn/2016/02/09/android-reverse-1/                                 //Android逆向工程
+54,http://drops.wooyun.org/mobile/12172                                                  //Android应用安全开发之源码安全
+53,https://github.com/skylot/jadx                                                         //反编译神器
+
+
+48，http://blog.csdn.net/qiujuer/article/details/39754517                //*.jar 与 *.aar 的生成与*.aar导入项目方法 
+
+49，http://blog.csdn.net/getchance/article/details/47257389              //*.aar 的生成和引用
+
+50，http://jingyan.baidu.com/article/cbcede071d569d02f40b4dd6.html?qq-pf-to=pcqq.c2c    //aar 的生成和引用
+22，http://chaosleong.github.io/blog/2015/08/02/android-studio-shi-yong-gradle-da-bao-jar/   //Android Studio 使用 Gradle 打包 Jar 
+51,http://laobie.github.io/android/2016/02/14/android-studio-tips.html                  //Android Studio 小技巧合集
+51,https://segmentfault.com/a/1190000004357190                                          //Android最佳实践（一）
+
+
+
+53,http://blog.csdn.net/guolin_blog/article/details/48719871                              //Android Scroller完全解析，关于Scroller你所需知道的一切
+
+
+
+55,https://mp.weixin.qq.com/s?__biz=MzA4MjU5NTY0NA==&mid=401740657&idx=1&sn=8e6727fbe094ea42d5fd80b185a49395&scene=1&srcid=01042xVJNz7KY68UKWpt6hv3&key=41ecb04b05111003cc9f6c04989d4f60e7b6241f3865700c7cb5510015a444599ca898fb06d5fbfc6363ab952e9316c8&ascene=0&uin=MTYzMjY2MTE1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=o%2FTSzpu0SSmOb7T9xPBrU0Rpqhpr4qF1AdRauuFWC4M%3D            //却换样式的实践
+
+56,http://cache.baiducontent.com/c?m=9d78d513d9901df918b0cf281a16a671685297154fc0a01368a3975f92144c37467192bc30526013a0b1682041f14606acb6746536703daade8dcd5dddccca7972de7065304fd11652c419d89a1b7adc738d09b5e743a0e7a961c8fa81ce8c08058a0e5e2cd9a3d00e5309ca6df3132ce1ad994a085e16bfe7276588033176c1&p=9a33da5990904ead09bd9b7d0d1494&newp=c370cd16d9c105ff57ee947c1355a5231610db2151d4d41f3b&user=baidu&fm=sc&query=android+%C4%DA%B4%E6%D3%C5%BB%AF&qid=8080071b0004f045&p1=3
+
+//Android 内存优化篇
+
+57,http://blog.csdn.net/hewence1/article/details/39004301             //Android 内存优化篇
+
+58,http://blog.csdn.net/tiantangrenjian/article/details/39182293        //Android 内存优化篇
+
+58，http://geek.csdn.net/news/detail/71031                                        //Android性能优化典范
+
+59,http://blog.zhaiyifan.cn/2016/02/13/android-reverse-2/           //APK的打包与安装过程解析
+
+60,http://www.open-open.com/lib/view/open1422425890986.html         //listView 的单条刷新
+
+61，http://jingyan.baidu.com/article/870c6fc309ededb03ee4be63.html          //android studio 下载设置代理
+   
+62，http://www.race604.com/android-nested-scrolling/                    //NestedScrolling 提供了一套父 View 和子 View 滑动交互机制
+
+63，http://blog.csdn.net/bingshushu/article/details/45818729             //Android 在 LinearLayout 添加分割线 divider
+
+64，http://blog.csdn.net/guolin_blog/article/details/17482095/           // Android Volley完全解析(一)
+
+65，http://blog.csdn.net/guolin_blog/article/details/12921889            //Android LayoutInflater原理分析，带你一步步深入了解View(一)
+
+66，http://www.race604.com/android-nested-scrolling/                     //NestedScrolling 提供了一套父 View 和子 View 滑动交互机制
+
+67,http://jingyan.baidu.com/article/00a07f3846983582d028dc88.html       //Android SDK 安装连接超时无法读取URL解决方法
+
+68，https://designcode.io/sketch                                        //Sketch 3: 这是一个专为设计移动端 UI 的设计工具
+69,http://www.androiddevtools.cn/                                         //android 相关资源下载地址
+
+70，http://blog.csdn.net/wawxf2008/article/details/8459365                //Android view中的requestLayout和invalidate方法
+71，http://blog.csdn.net/swust_chenpeng/article/details/11807477          //getViewTreeObserver   view的观察者
+
+72，http://blog.csdn.net/jason0539/article/details/42743531               //view的坐标位置
+73，http://www.linuxidc.com/Linux/2015-11/125391.htm                       //view的坐标位置
+74，http://blog.csdn.net/lvxiangan/article/details/19971509               //view的坐标位置
+75,http://blog.csdn.net/u012403246/article/details/41477427?utm_source=tuicool&utm_medium=referral                 //自定义进度条
+76,http://blog.csdn.net/cappuccinolau/article/details/8262821/                             //webview 和js的交互
+77，http://www.open-open.com/lib/view/open1416664325648.html                    //Material Design详解（主题和布局） 
+77，http://blog.sina.com.cn/s/blog_6e334dc70102ve7d.html                                 //Material Design详解（主题和布局） 
+78，http://www.open-open.com/lib/view/open1416663769680.html                    //Material Design详解（动画篇） 
+79，http://wiki.jikexueyuan.com/project/material-design/components/menus.html     //Material Design中文翻译
+80，http://blog.csdn.net/eclipsexys/article/details/46349721   //Android Design Support Library使用详解 
+81，http://www.jcodecraeer.com/a/anzhuokaifa/developer/2015/0531/2958.html         //Android的材料设计兼容库（Design Support Library）
+82，http://blog.jobbole.com/78960/                                                                                    //git使用详解
+82，http://www.cnblogs.com/timsheng/archive/2012/11/28/2792977.html                 //git使用详解
+83，http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000      //git使用详解
+84,http://blog.zhaiyifan.cn/2015/09/10/Android%E6%8D%A2%E8%82%A4%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/         //android 换肤技术总结
+85，http://blog.csdn.net/a379992210/article/details/48423923                                                                                                                 //PopupMenu 
+86，http://blog.csdn.net/harvic880925/article/details/40787203                                                                                                               // EventBus使用详解(二)——EventBus使用进阶 
+87，http://www.nowamagic.net/academy/detail/50161533                                      //ActionBarDrawerToggle的简要介绍
+http://blog.csdn.net/chencehnggq/article/details/21492417                                      //ActionBarDrawerToggle的简要介绍
+88，https://www.baidufe.com/item/3444ee051f8edb361d12.html                             //web界面调起 原始app
+89，http://blog.csdn.net/haolongabc/article/details/7249098                                   //线程安全
+90，http://blog.csdn.net/yongjian1092/article/details/7364451                                //java 反射详解
+91，http://www.cnblogs.com/xiaoluo501395377/p/3383130.html                            //java的动态代理
+91,http://www.open-open.com/lib/view/open1449404113542.html                          //android 动态加载详解
+92，http://drops.wooyun.org/tips/2423                                                                        //移动抓包教程
+ 93，  http://www.open-open.com/lib/view/open1397274257325.html                       //加密详解
+94，http://www.cnblogs.com/engine1984/p/4146621.html                                            //Intent详解  
+
+96,http://blog.csdn.net/ma969070578/article/details/42426489         /   http://sspai.com/24066/                            //Genymotion 模拟器安装教程
+97，http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0430/2815.html                                             //RXjava 和RXandroid 讲解
+97，http://rxjava.yuxingxin.com/                                                                                                                                    //RXjava 摘要 中文翻译
+98，http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0701/3125.html                                             //RXjava   详解
+98,http://gank.io/post/56e80c2c677659311bed9841                                                                                                   //RxJava 与 Retrofit 结合的最佳实践
+98，http://apistore.baidu.com/astore/toolshttpproxy                                                                                                 //API调试工具
+99，http://www.chuanke.com/?mod=school&act=show&do=course&sid=2869716                                                //U8sdk 打包视频讲解
+100，http://wiki.jikexueyuan.com/project/react-native/                                                                                              //React Native  跨平台app开发
+100，http://reactnative.cn/docs/0.24/getting-started.html                                                                                           //React Native  跨平台app开发
+100，https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112134&idx=1&sn=c26ceb682e361ae33bc1eb5348e5e7bb&scene=1&srcid=0428UDNGZSZ9EwESUV5vzEOU&key=b28b03434249256bb49f9f829b11e8d7834e200f2e4e53287d0939e2913506a8a1b11d77ec0234157f39a580765d8df9&ascene=0&uin=MTYzMjY2MTE1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.4+build%2815E65%29&version=11020201&pass_ticket=t%2FCcK%2FUoLixOCwNHbKXztUPEHqJJ3wy6LWy6scPVIFQ%3D                                   //React Native  跨平台app开发
+101，https://github.com/nukc/SearchViewAnalysis               //android 自带的搜索框
+102，http://www.jcodecraeer.com/plus/search.php?kwtype=0&q=ndk           //ndk研究
+103，http://blog.csdn.net/asmcvc/article/details/9311541                                //ndk研究
+103，http://blog.csdn.net/asmcvc/article/details/10006215                             //ndk研究
+103，http://blog.csdn.net/ownwell/article/details/8137376                               //ndk研究
+103，http://blog.csdn.net/yanbober/article/details/45309049                           //ndk研究
+103，http://vaero.blog.51cto.com/4350852/782787                                             //ndk研究
+104，http://www.knowsky.com/539117.html                                                       //注解式开发
+104，http://www.importnew.com/14227.html                                                       //注解式开发
+104，http://www.jb51.net/article/46350.htm                                                       //注解式开发
+104，http://ifeve.com/java-annotations/                                                       //注解式开发
+104，http://blog.sina.com.cn/s/blog_4e1e357d0101abda.html                   //注解式开发
+105，http://blog.csdn.net/guolin_blog/article/details/43536355               //属性动画详解
+105，http://hujiaweibujidao.github.io/blog/2016/05/26/when-math-meets-android-animation/   //属性动画详解
+106,http://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&mid=2651232105&idx=1&sn=fcc4fa956f329f839f2a04793e7dd3b9&scene=0#rd        //动态生成Drawable 或Drawable的子类
+107,https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B05%5DPath_Basic.md       //画布和画笔做自定义view 的系列文章
+
+

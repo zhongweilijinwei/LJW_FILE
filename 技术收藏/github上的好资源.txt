@@ -1,0 +1,41 @@
+1，https://github.com/zhongweilijinwei/Notes    极简笔记
+2，https://github.com/zhongweilijinwei/Remindly    闹钟提醒（Material 风格，炫酷日期选择和时间选择）
+
+3，http://www.apkbus.com/android-243232-1-1.html     //整理多个炫酷  Material风格项目
+4，http://www.csdn.net/article/2014-11-21/2822753-material-design-libs/2    //十大Material Design开源项目
+5，https://github.com/zhongweilijinwei/base-adapter          通用adapter
+6，https://github.com/xiepeijie/SwipeCardView            （一个带渐变层叠动画的左右滑动效果）卡片效果
+7，https://github.com/zhongweilijinwei/FlippableStackView             卡片效果
+8，https://github.com/mxn21/SlidingCard                     //漂亮的卡片滑动翻页特效。
+9,https://github.com/zhongweilijinwei/AndroidSwipeableCardStack   //卡片效果
+10,https://github.com/wenchaojiang/AndroidSwipeableCardStack#readme   //卡片效果
+10,https://github.com/aaronbond/Swipe-Deck                        ////卡片效果
+11,https://github.com/fenjuly/ArrowDownloadButton         //一个漂亮的下载按钮。
+11，17,https://github.com/jOOQ/jOOR                         //一个帮你摆脱反射的繁琐代码的库，链式调用，一行代码就可以反射
+
+12,https://github.com/zhongweilijinwei/SuperSwipeRefreshLayout              //好用的下拉刷新
+13，https://github.com/zhongweilijinwei/WaveSwipeRefreshLayout            //水滴动画效果的下拉刷新效果。
+
+14,https://github.com/zhongweilijinwei/GalleryFinal                         //Android自定义相册，实现了拍照、图片选择（单选/多选）、 裁剪（单/多裁剪）
+
+15,https://github.com/zhongweilijinwei/floatingsearchview      //浮动搜索框。
+
+16,https://github.com/zhongweilijinwei/TimelineView           //漂亮的时间轴自定义 View
+
+17,https://github.com/badoualy/morphy-toolbar                 //可以折叠和展开的 Toolbar
+
+18,https://github.com/zhongweilijinwei/AppUpdater                  //检测应用更新的库
+
+19,https://github.com/zhongweilijinwei/DragRecyclerView              //列表 Item 支持拖动排序的 RecyclerView
+
+20,https://github.com/zhongweilijinwei/leakcanary            //内存泄露监测项目（http://www.liaohuqiu.net/cn/posts/leak-canary-read-me/    //中文使用说明）
+21，https://github.com/zhongweilijinwei/proguard              //混淆和压缩项目
+
+22，https://github.com/zhongweilijinwei/cheesesquare           //材料设计库的例子
+23，https://github.com/zhongweilijinwei/MaterialDesignLibrary     //材料设计库的例子
+
+24,https://github.com/zhongweilijinwei/DragSortAdapter           //可以拖动位置的adapter
+
+25，https://github.com/zhongweilijinwei/Android-PullToRefresh     //非常好用的下拉刷新
+
+26，https://github.com/zhongweilijinwei/XRecyclerView              //下拉刷新的RecyclerView
