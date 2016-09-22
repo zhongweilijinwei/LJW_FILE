@@ -1,19 +1,19 @@
 
-// v7»òv4µÈ¼æÈİ°üµÄÒ»Ğ©ËµÃ÷£º
-android support repositoryÖ÷ÒªÊÇ·½±ãÔÚgradleÖĞÊ¹ÓÃandroid support libraries£¬
-ÒòÎªGoogle²¢Ã»ÓĞ°ÑÕâĞ©¿â·¢²¼µ½maven center»òÕßjcenterÈ¥£¬¶øÊÇÊ¹ÓÃÁËGoogle×Ô¼ºµÄmaven²Ö¿â¡££¨Ò²¾ÍÊÇÔÚsdk\extras\android\m2repositoryÏÂ(\com\android\support\appcompat-v7)£©
-support library¾ÍÊÇÌá¹©suppport¿â¸øÄãÓÃµÄ£¬±ÈÈçsupport v4,support v7¡£
+// v7æˆ–v4ç­‰å…¼å®¹åŒ…çš„ä¸€äº›è¯´æ˜ï¼š
+android support repositoryä¸»è¦æ˜¯æ–¹ä¾¿åœ¨gradleä¸­ä½¿ç”¨android support librariesï¼Œ
+å› ä¸ºGoogleå¹¶æ²¡æœ‰æŠŠè¿™äº›åº“å‘å¸ƒåˆ°maven centeræˆ–è€…jcenterå»ï¼Œè€Œæ˜¯ä½¿ç”¨äº†Googleè‡ªå·±çš„mavenä»“åº“ã€‚ï¼ˆä¹Ÿå°±æ˜¯åœ¨sdk\extras\android\m2repositoryä¸‹(\com\android\support\appcompat-v7)ï¼‰
+support libraryå°±æ˜¯æä¾›suppportåº“ç»™ä½ ç”¨çš„ï¼Œæ¯”å¦‚support v4,support v7ã€‚
 
-google repositoryÖ÷ÒªÊÇ¸øgradleÊ¹ÓÃµÄ£¬·½ÃæÌí¼Ó±ÈÈçGoogle Play ServiceµÄÒıÓÃ¡£
-ÕâÑùgradle¾Í¿ÉÒÔÊ¹ÓÃgoogleµÄmaven²Ö¿âÖĞµÄ¿âÁË£¬
-¶ø²»ĞèÒªÈ¥maven centee»òÕßjcenterÁË
+google repositoryä¸»è¦æ˜¯ç»™gradleä½¿ç”¨çš„ï¼Œæ–¹é¢æ·»åŠ æ¯”å¦‚Google Play Serviceçš„å¼•ç”¨ã€‚
+è¿™æ ·gradleå°±å¯ä»¥ä½¿ç”¨googleçš„mavenä»“åº“ä¸­çš„åº“äº†ï¼Œ
+è€Œä¸éœ€è¦å»maven centeeæˆ–è€…jcenteräº†
 
-×÷Õß£ºhi´óÍ·¹íhi
-Á´½Ó£º
+ä½œè€…ï¼šhiå¤§å¤´é¬¼hi
+é“¾æ¥ï¼š
 http://www.zhihu.com/question/31935836/answer/53921551
-À´Ô´£º
-Öªºõ
-Öø×÷È¨¹é×÷ÕßËùÓĞ¡£ÉÌÒµ×ªÔØÇëÁªÏµ×÷Õß»ñµÃÊÚÈ¨£¬·ÇÉÌÒµ×ªÔØÇë×¢Ã÷³ö´¦¡£
+æ¥æºï¼š
+çŸ¥ä¹
+è‘—ä½œæƒå½’ä½œè€…æ‰€æœ‰ã€‚å•†ä¸šè½¬è½½è¯·è”ç³»ä½œè€…è·å¾—æˆæƒï¼Œéå•†ä¸šè½¬è½½è¯·æ³¨æ˜å‡ºå¤„ã€‚
 
 
 
@@ -26,7 +26,7 @@ new Handler().postDelayed(new Runnable() {
 		},1600);
 
 
-ÀûÓÃActivity.runOnUiThread(Runnable)°Ñ¸üĞÂuiµÄ´úÂë´´½¨ÔÚRunnableÖĞ£¬È»ºóÔÚĞèÒª¸üĞÂuiÊ±£¬°ÑÕâ¸öRunnable¶ÔÏó´«¸øActivity.runOnUiThread(Runnable)¡£ ÕâÑùRunnable¶ÔÏñ¾ÍÄÜÔÚui³ÌĞòÖĞ±»µ÷ÓÃ¡£Èç¹ûµ±Ç°Ïß³ÌÊÇUIÏß³Ì,ÄÇÃ´ĞĞ¶¯ÊÇÁ¢¼´Ö´ĞĞ¡£Èç¹ûµ±Ç°Ïß³Ì²»ÊÇUIÏß³Ì,²Ù×÷ÊÇ·¢²¼µ½ÊÂ¼ş¶ÓÁĞµÄUIÏß³Ì
+åˆ©ç”¨Activity.runOnUiThread(Runnable)æŠŠæ›´æ–°uiçš„ä»£ç åˆ›å»ºåœ¨Runnableä¸­ï¼Œç„¶ååœ¨éœ€è¦æ›´æ–°uiæ—¶ï¼ŒæŠŠè¿™ä¸ªRunnableå¯¹è±¡ä¼ ç»™Activity.runOnUiThread(Runnable)ã€‚ è¿™æ ·Runnableå¯¹åƒå°±èƒ½åœ¨uiç¨‹åºä¸­è¢«è°ƒç”¨ã€‚å¦‚æœå½“å‰çº¿ç¨‹æ˜¯UIçº¿ç¨‹,é‚£ä¹ˆè¡ŒåŠ¨æ˜¯ç«‹å³æ‰§è¡Œã€‚å¦‚æœå½“å‰çº¿ç¨‹ä¸æ˜¯UIçº¿ç¨‹,æ“ä½œæ˜¯å‘å¸ƒåˆ°äº‹ä»¶é˜Ÿåˆ—çš„UIçº¿ç¨‹
 [html]  
 FusionField.currentActivity.runOnUiThread(new Runnable()    
         {    
@@ -39,14 +39,14 @@ FusionField.currentActivity.runOnUiThread(new Runnable()
         });    
 
 
-//°ÑÊı×é×ª³É¼¯ºÏ£¬mStringsÊÇÊı×é
+//æŠŠæ•°ç»„è½¬æˆé›†åˆï¼ŒmStringsæ˜¯æ•°ç»„
 
 Arrays.asList(mStrings)
 
 
 
-EditText ÉèÖÃ¿ÕÊ±µÄÌáÊ¾ĞÅÏ¢£º
-editTexttitle.setError("±êÌâ²»ÄÜÎª¿Õ");
+EditText è®¾ç½®ç©ºæ—¶çš„æç¤ºä¿¡æ¯ï¼š
+editTexttitle.setError("æ ‡é¢˜ä¸èƒ½ä¸ºç©º");
 editTexttitle.requestFocus();
 
 
@@ -54,30 +54,30 @@ editTexttitle.requestFocus();
 List<A> list=Arrays.asList(new A());
 
 
-android.support.v4.widget.DrawerLayout //¹Ù·½Ìá¹©µÄ²à»¬²Ëµ¥
+android.support.v4.widget.DrawerLayout //å®˜æ–¹æä¾›çš„ä¾§æ»‘èœå•
 
-android.support.v4.widget.SwipeRefreshLayout //¹Ù·½Ìá¹©µÄÏÂÀ­Ë¢ĞÂ¿Ø¼ş
+android.support.v4.widget.SwipeRefreshLayout //å®˜æ–¹æä¾›çš„ä¸‹æ‹‰åˆ·æ–°æ§ä»¶
 
-com.balysv.materialripple.MaterialRippleLayout  //ÊµÏÖµã»÷ÓĞ²¨ÎÆµÄ²ÄÁÏÉè¼Æ¿Ø¼ş£¬·Öxml³õÊ¼»¯ºÍ´úÂë³õÊ¼»¯
-
-
-com.rengwuxian.materialedittext.MaterialEditText //²ÄÁÏÉè¼ÆÊäÈë¿ò
-
-Snackbar//ÀàËÆÓÚToastµÄÏÔÊ¾¹¤¾ß
-compile 'com.pnikosis:materialish-progress:1.5' //×îĞÂÉè¼Æ²ÄÁÏµÄ½ø¶ÈÌõ
-
-compile 'com.nispok:snackbar:2.10.10' //ÀàËÆÓÚtoastµÄÌáÊ¾¹¤¾ß
-
-compile 'com.melnykov:floatingactionbutton:1.3.0'//¸¡¶¯µÄÒ»¸öbutton
-
-http://loopj.com/android-async-http/     //Ò»¸öÍøÂçÒì²½ÇëÇó¿ªÔ´¿ò¼Ü£¬ÉÏ´«ÏÂÔØÎÄ¼ş
+com.balysv.materialripple.MaterialRippleLayout  //å®ç°ç‚¹å‡»æœ‰æ³¢çº¹çš„ææ–™è®¾è®¡æ§ä»¶ï¼Œåˆ†xmlåˆå§‹åŒ–å’Œä»£ç åˆå§‹åŒ–
 
 
+com.rengwuxian.materialedittext.MaterialEditText //ææ–™è®¾è®¡è¾“å…¥æ¡†
 
-//½çÃæÊÊÅäÄÚÈİµÄÁíÒ»ÖÖ·½Ê½£¬ÉèÖÃÆÁÄ»½¥±ä
+Snackbar//ç±»ä¼¼äºToastçš„æ˜¾ç¤ºå·¥å…·
+compile 'com.pnikosis:materialish-progress:1.5' //æœ€æ–°è®¾è®¡ææ–™çš„è¿›åº¦æ¡
+
+compile 'com.nispok:snackbar:2.10.10' //ç±»ä¼¼äºtoastçš„æç¤ºå·¥å…·
+
+compile 'com.melnykov:floatingactionbutton:1.3.0'//æµ®åŠ¨çš„ä¸€ä¸ªbutton
+
+http://loopj.com/android-async-http/     //ä¸€ä¸ªç½‘ç»œå¼‚æ­¥è¯·æ±‚å¼€æºæ¡†æ¶ï¼Œä¸Šä¼ ä¸‹è½½æ–‡ä»¶
+
+
+
+//ç•Œé¢é€‚é…å†…å®¹çš„å¦ä¸€ç§æ–¹å¼ï¼Œè®¾ç½®å±å¹•æ¸å˜
 final View view = View.inflate(this, R.layout.app_start, null);
         setContentView(view);
-        // ½¥±äÕ¹Ê¾Æô¶¯ÆÁ
+        // æ¸å˜å±•ç¤ºå¯åŠ¨å±
         AlphaAnimation aa = new AlphaAnimation(0.5f, 1.0f);
         aa.setDuration(800);
         view.startAnimation(aa);
@@ -96,17 +96,17 @@ final View view = View.inflate(this, R.layout.app_start, null);
     }
 
 
-//½â¾ödialogÖĞµÄeditextµã»÷ÏÔÊ¾Èí¼üÅÌ°Ñdialog¸²¸Ç
+//è§£å†³dialogä¸­çš„editextç‚¹å‡»æ˜¾ç¤ºè½¯é”®ç›˜æŠŠdialogè¦†ç›–
 
-//ÉèÖÃdialogµÄÈí¼şÅÌÊôĞÔ
+//è®¾ç½®dialogçš„è½¯ä»¶ç›˜å±æ€§
 dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE |
                 WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
-//ÔÚÅäÖÃÎÄ¼şÏÔÊ¾dialogµÄactivity½ÓµãÏÂÉèÖÃ
+//åœ¨é…ç½®æ–‡ä»¶æ˜¾ç¤ºdialogçš„activityæ¥ç‚¹ä¸‹è®¾ç½®
 android:windowSoftInputMode="adjustNothing"
 
   
-view.setEnabled(false); //ÉèÖÃ¿Ø¼ş²»¼¤»î    ×÷ÓÃÊÇÊ¹ÄÇ¸öµ÷ÓÃ´Ë·½·¨µÄ¿Ø¼ş¶ÔÏó¿ÉÓÃ»òÕß²»¿ÉÓÃ£¬±ÈÈçÒ»¸ö°´Å¥(button)£¬ÄãÏëÈÃËü²»¿ÉÓÃ£¨²»ÄÜµã»÷£¬±ä»Ò£©£¬¾Í¿ÉÒÔ¶Ôbutton¶ÔÏóµ÷ÓÃsetEnabled(false)£¬·´Ö®£¬Ê¹ÓÃsetEnabled(true)¿ÉÒÔÉèÖÃÎª¿ÉÓÃ¡£
+view.setEnabled(false); //è®¾ç½®æ§ä»¶ä¸æ¿€æ´»    ä½œç”¨æ˜¯ä½¿é‚£ä¸ªè°ƒç”¨æ­¤æ–¹æ³•çš„æ§ä»¶å¯¹è±¡å¯ç”¨æˆ–è€…ä¸å¯ç”¨ï¼Œæ¯”å¦‚ä¸€ä¸ªæŒ‰é’®(button)ï¼Œä½ æƒ³è®©å®ƒä¸å¯ç”¨ï¼ˆä¸èƒ½ç‚¹å‡»ï¼Œå˜ç°ï¼‰ï¼Œå°±å¯ä»¥å¯¹buttonå¯¹è±¡è°ƒç”¨setEnabled(false)ï¼Œåä¹‹ï¼Œä½¿ç”¨setEnabled(true)å¯ä»¥è®¾ç½®ä¸ºå¯ç”¨ã€‚
 
 
 
@@ -120,252 +120,258 @@ view.setEnabled(false); //ÉèÖÃ¿Ø¼ş²»¼¤»î    ×÷ÓÃÊÇÊ¹ÄÇ¸öµ÷ÓÃ´Ë·½·¨µÄ¿Ø¼ş¶ÔÏó¿ÉÓÃ
                 android:orientation="vertical"
                 app:divider="@drawable/horizontal_line"
                 app:showDividers="beginning|middle">
-//¸Ã¸¸±êÇ© ¿ÉÒÔÉèÖÃËüµÄ×Ó±êÇ©¶¯»­ÏÔÊ¾Óë¶¯»­Òş²Ø
+//è¯¥çˆ¶æ ‡ç­¾ å¯ä»¥è®¾ç½®å®ƒçš„å­æ ‡ç­¾åŠ¨ç”»æ˜¾ç¤ºä¸åŠ¨ç”»éšè—
 
 
 <Space
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1" /> //Ò»¸öÓÃÓÚÅÅ°æµÄ±êÇ©£¬
+            android:layout_weight="1" /> //ä¸€ä¸ªç”¨äºæ’ç‰ˆçš„æ ‡ç­¾ï¼Œ
 
 
 
 Color.parseColor("#464646")
 
 
-view.setRotation(225 * value); //view  ×Ô´øµÄÒ»¸öĞı×ª·½·¨
+view.setRotation(225 * value); //view  è‡ªå¸¦çš„ä¸€ä¸ªæ—‹è½¬æ–¹æ³•
 
-Í¸Ã÷¶ÈµÄÑÕÉ«Öµ ÊÇÔÚÑÕÉ«µÄ»ù´¡ÉÏ Ç°Ãæ¼ÓÁ½Î»°¢À­²®Êı×Ö ÀàËÆ#91ffffff  °×É«91µÄÍ¸Ã÷¶È Áù¸öfÊÇ°×É«
+é€æ˜åº¦çš„é¢œè‰²å€¼ æ˜¯åœ¨é¢œè‰²çš„åŸºç¡€ä¸Š å‰é¢åŠ ä¸¤ä½é˜¿æ‹‰ä¼¯æ•°å­— ç±»ä¼¼#91ffffff  ç™½è‰²91çš„é€æ˜åº¦ å…­ä¸ªfæ˜¯ç™½è‰²
 
 
-listView.setEmptyView(emptyView);//µ±ÄÚÈİÎª¿ÕµÄÊ±ºò ¸ølistView Ìí¼ÓÒ»¸öÊÓÍ¼
+listView.setEmptyView(emptyView);//å½“å†…å®¹ä¸ºç©ºçš„æ—¶å€™ ç»™listView æ·»åŠ ä¸€ä¸ªè§†å›¾
 
 
 
-Ò»£¬·Ç³£ÖØÒªµÄÒ»Ğ©¼¼ÊõÎÄÕÂÁ´½Ó£º
+ä¸€ï¼Œéå¸¸é‡è¦çš„ä¸€äº›æŠ€æœ¯æ–‡ç« é“¾æ¥ï¼š
 
 
-http://blog.zhaiyifan.cn/            Óë¼¼ÊõÖÜ±¨Ò»ÑùµõµÄ¼¼ÊõÍøÕ¾
-http://www.open-open.com/lib/view/open1453008154245.html                                       //android ÍøÂçÇëÇóÑĞ¾¿
-http://www.cnblogs.com/codingmyworld/archive/2011/09/12/2174255.html                   //HandlerÔ­ÀíÒ»Æª²»´íµÄÎÄÕÂ
-1£¬http://www.jianshu.com/p/0acc12c29c1b    // Android¿ª·¢£ºTranslucent System Bar µÄ×î¼ÑÊµ¼ùÒ²¾ÍÊÇÉèÖÃÏµÍ³Í¨ÖªÀ¸
+http://blog.zhaiyifan.cn/            ä¸æŠ€æœ¯å‘¨æŠ¥ä¸€æ ·åŠçš„æŠ€æœ¯ç½‘ç«™
+http://www.open-open.com/lib/view/open1453008154245.html                                       //android ç½‘ç»œè¯·æ±‚ç ”ç©¶
+http://www.cnblogs.com/codingmyworld/archive/2011/09/12/2174255.html                   //HandleråŸç†ä¸€ç¯‡ä¸é”™çš„æ–‡ç« 
+1ï¼Œhttp://www.jianshu.com/p/0acc12c29c1b    // Androidå¼€å‘ï¼šTranslucent System Bar çš„æœ€ä½³å®è·µä¹Ÿå°±æ˜¯è®¾ç½®ç³»ç»Ÿé€šçŸ¥æ 
 
-2£¬http://www.jianshu.com/p/79604c3ddcae      //×îÏêÏ¸µÄ Toolbar ¿ª·¢Êµ¼ù×Ü½á
-3 http://www.cnblogs.com/oyjt/p/4762640.html      //ToolbarÑùÊ½ 
-4£¬http://blog.csdn.net/guolin_blog/article/details/18234477                //ToolbarÌí¼Ó¹¦ÄÜ
-10,http://blog.csdn.net/a1304317638/article/details/8478223    //ÑùÊ½ÓëÖ÷ÌâµÄ½²½â
+2ï¼Œhttp://www.jianshu.com/p/79604c3ddcae      //æœ€è¯¦ç»†çš„ Toolbar å¼€å‘å®è·µæ€»ç»“
+3 http://www.cnblogs.com/oyjt/p/4762640.html      //Toolbaræ ·å¼ 
+4ï¼Œhttp://blog.csdn.net/guolin_blog/article/details/18234477                //Toolbaræ·»åŠ åŠŸèƒ½
+10,http://blog.csdn.net/a1304317638/article/details/8478223    //æ ·å¼ä¸ä¸»é¢˜çš„è®²è§£
 
-3£¬http://blog.csdn.net/morgan_xww/article/details/9372285#comments    //Android TouchEventÊÂ¼ş´«µİ»úÖÆ
+3ï¼Œhttp://blog.csdn.net/morgan_xww/article/details/9372285#comments    //Android TouchEventäº‹ä»¶ä¼ é€’æœºåˆ¶
 
-4£¬http://blog.csdn.net/guolin_blog/article/details/9097463   //android ÊÂ¼ş·Ö·¢»úÖÆ£¨ÉÏ£©
+4ï¼Œhttp://blog.csdn.net/guolin_blog/article/details/9097463   //android äº‹ä»¶åˆ†å‘æœºåˆ¶ï¼ˆä¸Šï¼‰
 
-5£¬http://blog.csdn.net/loongggdroid/article/details/19118475  //android ÊÂ¼ş·Ö·¢»úÖÆ(ÏÂ)
+5ï¼Œhttp://blog.csdn.net/loongggdroid/article/details/19118475  //android äº‹ä»¶åˆ†å‘æœºåˆ¶(ä¸‹)
 
-6£¬http://jakewharton.github.io/butterknife/     //butterknife¹Ù·½ÎÄµµ
+6ï¼Œhttp://jakewharton.github.io/butterknife/     //butterknifeå®˜æ–¹æ–‡æ¡£
 
-7£¬https://tinypng.com/                      //¸ßĞ§Ñ¹ËõÍ¼Æ¬ÍøÖ·
+7ï¼Œhttps://tinypng.com/                      //é«˜æ•ˆå‹ç¼©å›¾ç‰‡ç½‘å€
 
 
 
-9£¬http://hukai.me/android-training-course-in-chinese/index.html    //Android¹Ù·½ÅàÑµ¿Î³ÌÖĞÎÄ°æ
+9ï¼Œhttp://hukai.me/android-training-course-in-chinese/index.html    //Androidå®˜æ–¹åŸ¹è®­è¯¾ç¨‹ä¸­æ–‡ç‰ˆ
 
 
 
-11£¬http://fir.im/       //ÏîÄ¿ÍĞ¹ÜÆ½Ì¨
+11ï¼Œhttp://fir.im/       //é¡¹ç›®æ‰˜ç®¡å¹³å°
 
-12£¬http://blog.csdn.net/lmj623565791/article/details/38902805/       //Í¨ÓÃAdapter
+12ï¼Œhttp://blog.csdn.net/lmj623565791/article/details/38902805/       //é€šç”¨Adapter
 
-13£¬http://android-mirror.bugly.qq.com:8080/include/usage.html         sdk¸üĞÂ¾µÏñµØÖ·
+13ï¼Œhttp://android-mirror.bugly.qq.com:8080/include/usage.html         sdkæ›´æ–°é•œåƒåœ°å€
 
-14£¬http://blog.csdn.net/innost/article/details/48228651            //ÉîÈëÀí½âAndroidÖ®Gradle 
+14ï¼Œhttp://blog.csdn.net/innost/article/details/48228651            //æ·±å…¥ç†è§£Androidä¹‹Gradle 
 
-15£¬http://www.jianshu.com/p/02cb9a0eb2a0        //Android StudioÖĞGradleÊ¹ÓÃÏê½â
+15ï¼Œhttp://www.jianshu.com/p/02cb9a0eb2a0        //Android Studioä¸­Gradleä½¿ç”¨è¯¦è§£
 
-16,http://jijiaxin89.com/2015/08/29/gradle-use-note/             //Gradle ÓÃ·¨×Ü½á 
+16,http://jijiaxin89.com/2015/08/29/gradle-use-note/             //Gradle ç”¨æ³•æ€»ç»“ 
 
-17£¬http://www.csdn.net/article/2015-08-10/2825420/2                //AndroidÏîÄ¿ÖĞÈçºÎÓÃºÃ¹¹½¨ÉñÆ÷Gradle£¿
+17ï¼Œhttp://www.csdn.net/article/2015-08-10/2825420/2                //Androidé¡¹ç›®ä¸­å¦‚ä½•ç”¨å¥½æ„å»ºç¥å™¨Gradleï¼Ÿ
 
-17,http://ticktick.blog.51cto.com/823160/1688586               //GradleÓëMakefile¹¹½¨¹¤¾ßµÄ¶Ô±È 
+17,http://ticktick.blog.51cto.com/823160/1688586               //Gradleä¸Makefileæ„å»ºå·¥å…·çš„å¯¹æ¯” 
 
-17£¬http://blog.csdn.net/lzyzsd/article/details/46934187        //ÈıÆªºÜ²»´íµÄGradleÎÄÕÂ
-17£¬http://www.kancloud.cn/kancloud/gradle-for-android/52025  //Gradle Android Plugin ÖĞÎÄÊÖ²á 
+17ï¼Œhttp://blog.csdn.net/lzyzsd/article/details/46934187        //ä¸‰ç¯‡å¾ˆä¸é”™çš„Gradleæ–‡ç« 
+17ï¼Œhttp://www.kancloud.cn/kancloud/gradle-for-android/52025  //Gradle Android Plugin ä¸­æ–‡æ‰‹å†Œ 
 
-17£¬http://blog.csdn.net/loongggdroid/article/details/47037413                //Android StudioÖ®gradleµÄÅäÖÃÓë½éÉÜ 
-95,http://www.open-open.com/lib/view/open1421580998718.html                              // android studio µ¼ÈëeclipseÏîÄ¿
-17£¬http://www.cnblogs.com/shortboy/p/4519860.html                                                   // ¹ØÓÚEclipseÈçºÎ¼ÓÈëGradleÎÄ¼şÓëAndroid StudioÁ½¸öÆ½Ì¨Ò»Æğ¿ª·¢
-18£¬https://www.aswifter.com/2015/07/07/android-studio-project-struct/                    //Android StudioÏîÄ¿Ä¿Â¼½á¹¹½éÉÜ
+17ï¼Œhttp://blog.csdn.net/loongggdroid/article/details/47037413                //Android Studioä¹‹gradleçš„é…ç½®ä¸ä»‹ç» 
+95,http://www.open-open.com/lib/view/open1421580998718.html                              // android studio å¯¼å…¥eclipseé¡¹ç›®
+17ï¼Œhttp://www.cnblogs.com/shortboy/p/4519860.html                                                   // å…³äºEclipseå¦‚ä½•åŠ å…¥Gradleæ–‡ä»¶ä¸Android Studioä¸¤ä¸ªå¹³å°ä¸€èµ·å¼€å‘
+18ï¼Œhttps://www.aswifter.com/2015/07/07/android-studio-project-struct/                    //Android Studioé¡¹ç›®ç›®å½•ç»“æ„ä»‹ç»
 
-17£¬https://github.com/tianzhijiexian/Android-Best-Practices/blob/master/2015.9/reflect/reflect.md     //Java·´Éä×î¼ÑÊµ¼ù
+17ï¼Œhttps://github.com/tianzhijiexian/Android-Best-Practices/blob/master/2015.9/reflect/reflect.md     //Javaåå°„æœ€ä½³å®è·µ
 
-18,http://bxbxbai.gitcafe.io/2015/08/16/talk-about-bybird-app/        //Ì¸Ì¸App»ìºÏ¿ª·¢ 
+18,http://bxbxbai.gitcafe.io/2015/08/16/talk-about-bybird-app/        //è°ˆè°ˆAppæ··åˆå¼€å‘ 
 
-19,http://blog.csdn.net/lmj623565791/article/details/47911083           //Android OkHttpÍêÈ«½âÎö ÊÇÊ±ºòÀ´ÁË½âOkHttpÁË 
+19,http://blog.csdn.net/lmj623565791/article/details/47911083           //Android OkHttpå®Œå…¨è§£æ æ˜¯æ—¶å€™æ¥äº†è§£OkHttpäº† 
 
-20,http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0327/2650.html        //±ÈPicasso¸üÇ¿´ó£¬GoogleÍÆ¼öµÄÍ¼Æ¬¼ÓÔØ¿âGlide½éÉÜ
-20£¬   http://mrfu.me/2016/02/27/Glide_Getting_Started/                                              //Glide½éÉÜ´óÈ«
-21£¬http://www.jianshu.com/p/4a3177b57949?utm_campaign=maleskine&utm_content=note&utm_medium=writer_share&utm_source=weibo         //Glide Ò»¸ö×¨×¢ÓÚÆ½»¬¹ö¶¯µÄÍ¼Æ¬¼ÓÔØºÍ»º´æ¿â£¨ÏÔÊ¾Ô²ĞÎÍ¼Æ¬£©
+20,http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0327/2650.html        //æ¯”Picassoæ›´å¼ºå¤§ï¼ŒGoogleæ¨èçš„å›¾ç‰‡åŠ è½½åº“Glideä»‹ç»
+20ï¼Œ   http://mrfu.me/2016/02/27/Glide_Getting_Started/                                              //Glideä»‹ç»å¤§å…¨
+21ï¼Œhttp://www.jianshu.com/p/4a3177b57949?utm_campaign=maleskine&utm_content=note&utm_medium=writer_share&utm_source=weibo         //Glide ä¸€ä¸ªä¸“æ³¨äºå¹³æ»‘æ»šåŠ¨çš„å›¾ç‰‡åŠ è½½å’Œç¼“å­˜åº“ï¼ˆæ˜¾ç¤ºåœ†å½¢å›¾ç‰‡ï¼‰
 
 
 
-23£¬http://blog.csdn.net/whu_zhangmin/article/details/42294141            //AndroidÊ¹ÓÃUncaughtExceptionHandler²¶»ñÈ«¾ÖÒì³£ 
-23£¬http://geek.csdn.net/news/detail/50839       //AndroidÆ½Ì¨µÄ±ÀÀ£²¶»ñ»úÖÆ¼°ÊµÏÖ
-24,http://blog.csdn.net/androidwifi/article/details/17725989/           // androidÖĞµÄÎÄ¼ş²Ù×÷Ïê½âÒÔ¼°ÄÚ²¿´æ´¢ºÍÍâ²¿´æ´¢ 
+23ï¼Œhttp://blog.csdn.net/whu_zhangmin/article/details/42294141            //Androidä½¿ç”¨UncaughtExceptionHandleræ•è·å…¨å±€å¼‚å¸¸ 
+23ï¼Œhttp://geek.csdn.net/news/detail/50839       //Androidå¹³å°çš„å´©æºƒæ•è·æœºåˆ¶åŠå®ç°
+24,http://blog.csdn.net/androidwifi/article/details/17725989/           // androidä¸­çš„æ–‡ä»¶æ“ä½œè¯¦è§£ä»¥åŠå†…éƒ¨å­˜å‚¨å’Œå¤–éƒ¨å­˜å‚¨ 
 
-25£¬http://luckyandyzhang.github.io/2016/02/04/Android%E5%BC%80%E5%8F%91%E4%B8%AD%E4%B8%80%E4%BA%9B%E8%A2%AB%E5%86%B7%E8%90%BD%E4%BD%86%E5%8D%B4%E5%BE%88%E6%9C%89%E7%94%A8%E7%9A%84%E7%B1%BB%E5%92%8C%E6%96%B9%E6%B3%95/                  // Android¿ª·¢ÖĞÒ»Ğ©±»ÀäÂäµ«È´ºÜÓĞÓÃµÄÀàºÍ·½·¨
+25ï¼Œhttp://luckyandyzhang.github.io/2016/02/04/Android%E5%BC%80%E5%8F%91%E4%B8%AD%E4%B8%80%E4%BA%9B%E8%A2%AB%E5%86%B7%E8%90%BD%E4%BD%86%E5%8D%B4%E5%BE%88%E6%9C%89%E7%94%A8%E7%9A%84%E7%B1%BB%E5%92%8C%E6%96%B9%E6%B3%95/                  // Androidå¼€å‘ä¸­ä¸€äº›è¢«å†·è½ä½†å´å¾ˆæœ‰ç”¨çš„ç±»å’Œæ–¹æ³•
 
-26 £¬http://www.zhihu.com/question/33636939     //Android¿ª·¢ÖĞ£¬ÓĞÄÄĞ©ÈÃÄã¾õµÃÏà¼ûºŞÍíµÄ·½·¨¡¢Àà»ò½Ó¿Ú£¿
+26 ï¼Œhttp://www.zhihu.com/question/33636939     //Androidå¼€å‘ä¸­ï¼Œæœ‰å“ªäº›è®©ä½ è§‰å¾—ç›¸è§æ¨æ™šçš„æ–¹æ³•ã€ç±»æˆ–æ¥å£ï¼Ÿ
 
-27£¬http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0718/3197.html       //¸¡¶¯°´Å¥½²½â £¨¹È¸èÌá¹©µÄ¸¡¶¯°´Å¥£©
+27ï¼Œhttp://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0718/3197.html       //æµ®åŠ¨æŒ‰é’®è®²è§£ ï¼ˆè°·æ­Œæä¾›çš„æµ®åŠ¨æŒ‰é’®ï¼‰
 
-28£¬http://www.liaohuqiu.net/cn/posts/the-pull-to-refresh-in-my-eyes/#comment-2111797440     //ÏÂÀ­Ë¢ĞÂ½²½â
-28£¬http://blog.csdn.net/guolin_blog/article/details/9255575         //ÏÂÀ­Ë¢ĞÂ½²½â
+28ï¼Œhttp://www.liaohuqiu.net/cn/posts/the-pull-to-refresh-in-my-eyes/#comment-2111797440     //ä¸‹æ‹‰åˆ·æ–°è®²è§£
+28ï¼Œhttp://blog.csdn.net/guolin_blog/article/details/9255575         //ä¸‹æ‹‰åˆ·æ–°è®²è§£
 
-29£¬https://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=403263974&idx=1&sn=b0315addbc47f3c38e65d9c633a12cd6&scene=0&key=41ecb04b0511100390dcd25b8d443be2a357c0de12cdba7e7b1c4d06e1c2a9331881b1697239b4a3b89b86ef42a7eba9&ascene=0&uin=MTYzMjY2MTE1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.2+build%2815C50%29&version=11020201&pass_ticket=9p5lnIh3K3G8I2FvfncYkoGNOueUiq1%2B6ELLdgUwkGc%3D          //Í¼Æ¬ÄÚ´æÏûºÄ´óĞ¡¼¼Êõ ºÍÒ»Ğ©½â¾ö°ì·¨
-29£¬http://blog.csdn.net/hudashi/article/details/7856519    //¼ÆËã¼ÓÔØÍ¼Æ¬ºÄÄÚ´æ´óĞ¡
-30£¬http://www.cnblogs.com/wanqieddy/archive/2011/11/25/2263381.html       // AndroidÓĞĞ§½â¾ö¼ÓÔØ´óÍ¼Æ¬Ê±ÄÚ´æÒç³öµÄÎÊÌâ
-30£¬http://blog.csdn.net/guolin_blog/article/details/9316683               //Android¸ßĞ§¼ÓÔØ´óÍ¼¡¢¶àÍ¼½â¾ö·½°¸£¬ÓĞĞ§±ÜÃâ³ÌĞòOOM 
-31£¬http://blog.csdn.net/a396901990/article/details/38904543      //ANDROIDÄÚ´æÓÅ»¯(´ó»ã×Ü¡ª¡ªÈ«) 
+29ï¼Œhttps://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=403263974&idx=1&sn=b0315addbc47f3c38e65d9c633a12cd6&scene=0&key=41ecb04b0511100390dcd25b8d443be2a357c0de12cdba7e7b1c4d06e1c2a9331881b1697239b4a3b89b86ef42a7eba9&ascene=0&uin=MTYzMjY2MTE1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.2+build%2815C50%29&version=11020201&pass_ticket=9p5lnIh3K3G8I2FvfncYkoGNOueUiq1%2B6ELLdgUwkGc%3D          //å›¾ç‰‡å†…å­˜æ¶ˆè€—å¤§å°æŠ€æœ¯ å’Œä¸€äº›è§£å†³åŠæ³•
+29ï¼Œhttp://blog.csdn.net/hudashi/article/details/7856519    //è®¡ç®—åŠ è½½å›¾ç‰‡è€—å†…å­˜å¤§å°
+30ï¼Œhttp://www.cnblogs.com/wanqieddy/archive/2011/11/25/2263381.html       // Androidæœ‰æ•ˆè§£å†³åŠ è½½å¤§å›¾ç‰‡æ—¶å†…å­˜æº¢å‡ºçš„é—®é¢˜
+30ï¼Œhttp://blog.csdn.net/guolin_blog/article/details/9316683               //Androidé«˜æ•ˆåŠ è½½å¤§å›¾ã€å¤šå›¾è§£å†³æ–¹æ¡ˆï¼Œæœ‰æ•ˆé¿å…ç¨‹åºOOM 
+31ï¼Œhttp://blog.csdn.net/a396901990/article/details/38904543      //ANDROIDå†…å­˜ä¼˜åŒ–(å¤§æ±‡æ€»â€”â€”å…¨) 
 
-32£¬http://www.cnblogs.com/zdz8207/archive/2012/07/23/2605377.html            //Android ÈçºÎÅĞ¶ÏÒ»¸öÓ¦ÓÃÔÚÔËĞĞ
+32ï¼Œhttp://www.cnblogs.com/zdz8207/archive/2012/07/23/2605377.html            //Android å¦‚ä½•åˆ¤æ–­ä¸€ä¸ªåº”ç”¨åœ¨è¿è¡Œ
 
-33£¬http://www.jianshu.com/p/224e2479da18     //µã»÷ÏµÍ³Í¨Öª£¬´ò¿ªÏìÓ¦½çÃæµÄÊµÏÖË¼Â·
+33ï¼Œhttp://www.jianshu.com/p/224e2479da18     //ç‚¹å‡»ç³»ç»Ÿé€šçŸ¥ï¼Œæ‰“å¼€å“åº”ç•Œé¢çš„å®ç°æ€è·¯
 
-34£¬http://blog.csdn.net/guolin_blog/article/details/28863651         //Android DiskLruCacheÍêÈ«½âÎö£¬Ó²ÅÌ»º´æµÄ×î¼Ñ·½°¸ 
+34ï¼Œhttp://blog.csdn.net/guolin_blog/article/details/28863651         //Android DiskLruCacheå®Œå…¨è§£æï¼Œç¡¬ç›˜ç¼“å­˜çš„æœ€ä½³æ–¹æ¡ˆ 
 
-35£¬http://www.infoq.com/cn/articles/android-in-depth-dalvik     //ÉîÈëÀí½âAndroid£¨¶ş£©£ºJavaĞéÄâ»úDalvik
-35£¬http://www.infoq.com/cn/android-in-depth                     //ÉîÈëÀí½âAndroid
-36£¬http://blog.csdn.net/guolin_blog/article/details/47803149     //Android¾²Ä¬°²×°ÊµÏÖ·½°¸£¬·Â360ÊÖ»úÖúÊÖÃë×°ºÍÖÇÄÜ°²×°¹¦ÄÜ
+35ï¼Œhttp://www.infoq.com/cn/articles/android-in-depth-dalvik     //æ·±å…¥ç†è§£Androidï¼ˆäºŒï¼‰ï¼šJavaè™šæ‹ŸæœºDalvik
+35ï¼Œhttp://www.infoq.com/cn/android-in-depth                     //æ·±å…¥ç†è§£Android
+36ï¼Œhttp://blog.csdn.net/guolin_blog/article/details/47803149     //Androidé™é»˜å®‰è£…å®ç°æ–¹æ¡ˆï¼Œä»¿360æ‰‹æœºåŠ©æ‰‹ç§’è£…å’Œæ™ºèƒ½å®‰è£…åŠŸèƒ½
 
-37£¬http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/1217/3782.html       //InstaMaterial£ºÕıÈ·´¦ÀíRecyclerView¶¯»­
+37ï¼Œhttp://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/1217/3782.html       //InstaMaterialï¼šæ­£ç¡®å¤„ç†RecyclerViewåŠ¨ç”»
 
-38£¬http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=402077566&idx=1&sn=def3337205c3aec5e0fde2476ee03397&scene=0&key=ac89cba618d2d976159e30761eefe9953dc2030a7d72c1872c445a8caaa0f1d3cc4eb416a1c7cfb82651db48d11f3f90&ascene=0&uin=MjAyNzY1NTU%3D&devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.11.1+build%2815B42%29&version=11020201&pass_ticket=Ot%2FkhKXqAqrGFzCH568zK5zy%2FSd6Yamb01L2dKV6dtY%3D      //H5 »º´æ»úÖÆÇ³Îö ÒÆ¶¯¶Ë Web ¼ÓÔØĞÔÄÜÓÅ»¯ 
+38ï¼Œhttp://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=402077566&idx=1&sn=def3337205c3aec5e0fde2476ee03397&scene=0&key=ac89cba618d2d976159e30761eefe9953dc2030a7d72c1872c445a8caaa0f1d3cc4eb416a1c7cfb82651db48d11f3f90&ascene=0&uin=MjAyNzY1NTU%3D&devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.11.1+build%2815B42%29&version=11020201&pass_ticket=Ot%2FkhKXqAqrGFzCH568zK5zy%2FSd6Yamb01L2dKV6dtY%3D      //H5 ç¼“å­˜æœºåˆ¶æµ…æ ç§»åŠ¨ç«¯ Web åŠ è½½æ€§èƒ½ä¼˜åŒ– 
 
-39£¬http://blog.zhaiyifan.cn/2015/11/20/HotPatchCompare/        //¸÷´óÈÈ²¹¶¡·½°¸·ÖÎöºÍ±È½Ï 
+39ï¼Œhttp://blog.zhaiyifan.cn/2015/11/20/HotPatchCompare/        //å„å¤§çƒ­è¡¥ä¸æ–¹æ¡ˆåˆ†æå’Œæ¯”è¾ƒ 
 
-40£¬http://mp.weixin.qq.com/s?__biz=MzA3Mjk1MjA4Nw==&mid=400452659&idx=1&sn=841b49b875ec3b307f261ed52a7d9c4e&scene=23&srcid=1119JWRt0adNwGxTHiyok460#rd   //Android App ÏßÉÏÈÈĞŞ¸´·½°¸ 
-41£¬http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=400118620&idx=1&sn=b4fdd5055731290eef12ad0d17f39d4a&scene=0&uin=MTYzMjY2MTE1&key=04dce534b3b035ef49d8b47c3f8dc1399d737e94c7a40b1a38561c6fcf48d000a1f40ec4bf530d2534dd865875c0c8c7&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.1+build%2815B42%29&version=11020201&lang=en&pass_ticket=1zsiC5hQfwATA4R3ndq32UtcvN%2B5kATcavEv4xN2HMY%3D    //°²×¿AppÈÈ²¹¶¡¶¯Ì¬ĞŞ¸´¼¼Êõ½éÉÜ
+40ï¼Œhttp://mp.weixin.qq.com/s?__biz=MzA3Mjk1MjA4Nw==&mid=400452659&idx=1&sn=841b49b875ec3b307f261ed52a7d9c4e&scene=23&srcid=1119JWRt0adNwGxTHiyok460#rd   //Android App çº¿ä¸Šçƒ­ä¿®å¤æ–¹æ¡ˆ 
+41ï¼Œhttp://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=400118620&idx=1&sn=b4fdd5055731290eef12ad0d17f39d4a&scene=0&uin=MTYzMjY2MTE1&key=04dce534b3b035ef49d8b47c3f8dc1399d737e94c7a40b1a38561c6fcf48d000a1f40ec4bf530d2534dd865875c0c8c7&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.1+build%2815B42%29&version=11020201&lang=en&pass_ticket=1zsiC5hQfwATA4R3ndq32UtcvN%2B5kATcavEv4xN2HMY%3D    //å®‰å“Appçƒ­è¡¥ä¸åŠ¨æ€ä¿®å¤æŠ€æœ¯ä»‹ç»
 
-42£¬https://github.com/tianzhijiexian/Android-Best-Practices/blob/master/2015.10/adapter/adapter.md        //Adapter×î¼ÑÊµ¼ù
+42ï¼Œhttps://github.com/tianzhijiexian/Android-Best-Practices/blob/master/2015.10/adapter/adapter.md        //Adapteræœ€ä½³å®è·µ
 
-43£¬http://blog.aaapei.com/article/2015/02/facebookxin-wen-ye-listviewyou-hua           //facebookĞÂÎÅÒ³ListViewÓÅ»¯
+43ï¼Œhttp://blog.aaapei.com/article/2015/02/facebookxin-wen-ye-listviewyou-hua           //facebookæ–°é—»é¡µListViewä¼˜åŒ–
 
-44£¬http://ragnraok.github.io/textview-pre-render-research.html            //TextViewÔ¤äÖÈ¾ÑĞ¾¿
-45£¬http://www.devtf.cn/?p=515                                              //Í¨¹ı×Ô¶¨ÒåviewGroupÀ´ÓÅ»¯item£¬´Ó¶ø¼õÉÙÖØ¸´µÄmeasure
+44ï¼Œhttp://ragnraok.github.io/textview-pre-render-research.html            //TextViewé¢„æ¸²æŸ“ç ”ç©¶
+45ï¼Œhttp://www.devtf.cn/?p=515                                              //é€šè¿‡è‡ªå®šä¹‰viewGroupæ¥ä¼˜åŒ–itemï¼Œä»è€Œå‡å°‘é‡å¤çš„measure
 
-46£¬http://www.ithao123.cn/content-10528233.html                             //android ListView  ¶à²¼¾Ö ¸´ÓÃconvertViewµÄ¹æÔò
+46ï¼Œhttp://www.ithao123.cn/content-10528233.html                             //android ListView  å¤šå¸ƒå±€ å¤ç”¨convertViewçš„è§„åˆ™
 
 
-47£¬http://blog.csdn.net/guolin_blog/article/details/49738023            //Android°²È«¹¥·ÀÕ½£¬·´±àÒëÓë»ìÏı¼¼ÊõÍêÈ«½âÎö£¨ÉÏ£© 
+47ï¼Œhttp://blog.csdn.net/guolin_blog/article/details/49738023            //Androidå®‰å…¨æ”»é˜²æˆ˜ï¼Œåç¼–è¯‘ä¸æ··æ·†æŠ€æœ¯å®Œå…¨è§£æï¼ˆä¸Šï¼‰ 
 
-52,http://blog.zhaiyifan.cn/2016/02/09/android-reverse-1/                                 //AndroidÄæÏò¹¤³Ì
-54,http://drops.wooyun.org/mobile/12172                                                  //AndroidÓ¦ÓÃ°²È«¿ª·¢Ö®Ô´Âë°²È«
-53,https://github.com/skylot/jadx                                                         //·´±àÒëÉñÆ÷
+52,http://blog.zhaiyifan.cn/2016/02/09/android-reverse-1/                                 //Androidé€†å‘å·¥ç¨‹
+54,http://drops.wooyun.org/mobile/12172                                                  //Androidåº”ç”¨å®‰å…¨å¼€å‘ä¹‹æºç å®‰å…¨
+53,https://github.com/skylot/jadx                                                         //åç¼–è¯‘ç¥å™¨
 
 
-48£¬http://blog.csdn.net/qiujuer/article/details/39754517                //*.jar Óë *.aar µÄÉú³ÉÓë*.aarµ¼ÈëÏîÄ¿·½·¨ 
+48ï¼Œhttp://blog.csdn.net/qiujuer/article/details/39754517                //*.jar ä¸ *.aar çš„ç”Ÿæˆä¸*.aarå¯¼å…¥é¡¹ç›®æ–¹æ³• 
 
-49£¬http://blog.csdn.net/getchance/article/details/47257389              //*.aar µÄÉú³ÉºÍÒıÓÃ
+49ï¼Œhttp://blog.csdn.net/getchance/article/details/47257389              //*.aar çš„ç”Ÿæˆå’Œå¼•ç”¨
 
-50£¬http://jingyan.baidu.com/article/cbcede071d569d02f40b4dd6.html?qq-pf-to=pcqq.c2c    //aar µÄÉú³ÉºÍÒıÓÃ
-22£¬http://chaosleong.github.io/blog/2015/08/02/android-studio-shi-yong-gradle-da-bao-jar/   //Android Studio Ê¹ÓÃ Gradle ´ò°ü Jar 
-51,http://laobie.github.io/android/2016/02/14/android-studio-tips.html                  //Android Studio Ğ¡¼¼ÇÉºÏ¼¯
-51,https://segmentfault.com/a/1190000004357190                                          //Android×î¼ÑÊµ¼ù£¨Ò»£©
+50ï¼Œhttp://jingyan.baidu.com/article/cbcede071d569d02f40b4dd6.html?qq-pf-to=pcqq.c2c    //aar çš„ç”Ÿæˆå’Œå¼•ç”¨
+22ï¼Œhttp://chaosleong.github.io/blog/2015/08/02/android-studio-shi-yong-gradle-da-bao-jar/   //Android Studio ä½¿ç”¨ Gradle æ‰“åŒ… Jar 
+51,http://laobie.github.io/android/2016/02/14/android-studio-tips.html                  //Android Studio å°æŠ€å·§åˆé›†
+51,https://segmentfault.com/a/1190000004357190                                          //Androidæœ€ä½³å®è·µï¼ˆä¸€ï¼‰
 
 
 
-53,http://blog.csdn.net/guolin_blog/article/details/48719871                              //Android ScrollerÍêÈ«½âÎö£¬¹ØÓÚScrollerÄãËùĞèÖªµÀµÄÒ»ÇĞ
+53,http://blog.csdn.net/guolin_blog/article/details/48719871                              //Android Scrollerå®Œå…¨è§£æï¼Œå…³äºScrollerä½ æ‰€éœ€çŸ¥é“çš„ä¸€åˆ‡
 
 
 
-55,https://mp.weixin.qq.com/s?__biz=MzA4MjU5NTY0NA==&mid=401740657&idx=1&sn=8e6727fbe094ea42d5fd80b185a49395&scene=1&srcid=01042xVJNz7KY68UKWpt6hv3&key=41ecb04b05111003cc9f6c04989d4f60e7b6241f3865700c7cb5510015a444599ca898fb06d5fbfc6363ab952e9316c8&ascene=0&uin=MTYzMjY2MTE1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=o%2FTSzpu0SSmOb7T9xPBrU0Rpqhpr4qF1AdRauuFWC4M%3D            //È´»»ÑùÊ½µÄÊµ¼ù
+55,https://mp.weixin.qq.com/s?__biz=MzA4MjU5NTY0NA==&mid=401740657&idx=1&sn=8e6727fbe094ea42d5fd80b185a49395&scene=1&srcid=01042xVJNz7KY68UKWpt6hv3&key=41ecb04b05111003cc9f6c04989d4f60e7b6241f3865700c7cb5510015a444599ca898fb06d5fbfc6363ab952e9316c8&ascene=0&uin=MTYzMjY2MTE1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=o%2FTSzpu0SSmOb7T9xPBrU0Rpqhpr4qF1AdRauuFWC4M%3D            //å´æ¢æ ·å¼çš„å®è·µ
 
 56,http://cache.baiducontent.com/c?m=9d78d513d9901df918b0cf281a16a671685297154fc0a01368a3975f92144c37467192bc30526013a0b1682041f14606acb6746536703daade8dcd5dddccca7972de7065304fd11652c419d89a1b7adc738d09b5e743a0e7a961c8fa81ce8c08058a0e5e2cd9a3d00e5309ca6df3132ce1ad994a085e16bfe7276588033176c1&p=9a33da5990904ead09bd9b7d0d1494&newp=c370cd16d9c105ff57ee947c1355a5231610db2151d4d41f3b&user=baidu&fm=sc&query=android+%C4%DA%B4%E6%D3%C5%BB%AF&qid=8080071b0004f045&p1=3
 
-//Android ÄÚ´æÓÅ»¯Æª
+//Android å†…å­˜ä¼˜åŒ–ç¯‡
 
-57,http://blog.csdn.net/hewence1/article/details/39004301             //Android ÄÚ´æÓÅ»¯Æª
+57,http://blog.csdn.net/hewence1/article/details/39004301             //Android å†…å­˜ä¼˜åŒ–ç¯‡
 
-58,http://blog.csdn.net/tiantangrenjian/article/details/39182293        //Android ÄÚ´æÓÅ»¯Æª
+58,http://blog.csdn.net/tiantangrenjian/article/details/39182293        //Android å†…å­˜ä¼˜åŒ–ç¯‡
 
-58£¬http://geek.csdn.net/news/detail/71031                                        //AndroidĞÔÄÜÓÅ»¯µä·¶
+58ï¼Œhttp://geek.csdn.net/news/detail/71031                                        //Androidæ€§èƒ½ä¼˜åŒ–å…¸èŒƒ
 
-59,http://blog.zhaiyifan.cn/2016/02/13/android-reverse-2/           //APKµÄ´ò°üÓë°²×°¹ı³Ì½âÎö
+59,http://blog.zhaiyifan.cn/2016/02/13/android-reverse-2/           //APKçš„æ‰“åŒ…ä¸å®‰è£…è¿‡ç¨‹è§£æ
 
-60,http://www.open-open.com/lib/view/open1422425890986.html         //listView µÄµ¥ÌõË¢ĞÂ
+60,http://www.open-open.com/lib/view/open1422425890986.html         //listView çš„å•æ¡åˆ·æ–°
 
-61£¬http://jingyan.baidu.com/article/870c6fc309ededb03ee4be63.html          //android studio ÏÂÔØÉèÖÃ´úÀí
+61ï¼Œhttp://jingyan.baidu.com/article/870c6fc309ededb03ee4be63.html          //android studio ä¸‹è½½è®¾ç½®ä»£ç†
    
-62£¬http://www.race604.com/android-nested-scrolling/                    //NestedScrolling Ìá¹©ÁËÒ»Ì×¸¸ View ºÍ×Ó View »¬¶¯½»»¥»úÖÆ
+62ï¼Œhttp://www.race604.com/android-nested-scrolling/                    //NestedScrolling æä¾›äº†ä¸€å¥—çˆ¶ View å’Œå­ View æ»‘åŠ¨äº¤äº’æœºåˆ¶
 
-63£¬http://blog.csdn.net/bingshushu/article/details/45818729             //Android ÔÚ LinearLayout Ìí¼Ó·Ö¸îÏß divider
+63ï¼Œhttp://blog.csdn.net/bingshushu/article/details/45818729             //Android åœ¨ LinearLayout æ·»åŠ åˆ†å‰²çº¿ divider
 
-64£¬http://blog.csdn.net/guolin_blog/article/details/17482095/           // Android VolleyÍêÈ«½âÎö(Ò»)
+64ï¼Œhttp://blog.csdn.net/guolin_blog/article/details/17482095/           // Android Volleyå®Œå…¨è§£æ(ä¸€)
 
-65£¬http://blog.csdn.net/guolin_blog/article/details/12921889            //Android LayoutInflaterÔ­Àí·ÖÎö£¬´øÄãÒ»²½²½ÉîÈëÁË½âView(Ò»)
+65ï¼Œhttp://blog.csdn.net/guolin_blog/article/details/12921889            //Android LayoutInflateråŸç†åˆ†æï¼Œå¸¦ä½ ä¸€æ­¥æ­¥æ·±å…¥äº†è§£View(ä¸€)
 
-66£¬http://www.race604.com/android-nested-scrolling/                     //NestedScrolling Ìá¹©ÁËÒ»Ì×¸¸ View ºÍ×Ó View »¬¶¯½»»¥»úÖÆ
+66ï¼Œhttp://www.race604.com/android-nested-scrolling/                     //NestedScrolling æä¾›äº†ä¸€å¥—çˆ¶ View å’Œå­ View æ»‘åŠ¨äº¤äº’æœºåˆ¶
 
-67,http://jingyan.baidu.com/article/00a07f3846983582d028dc88.html       //Android SDK °²×°Á¬½Ó³¬Ê±ÎŞ·¨¶ÁÈ¡URL½â¾ö·½·¨
+67,http://jingyan.baidu.com/article/00a07f3846983582d028dc88.html       //Android SDK å®‰è£…è¿æ¥è¶…æ—¶æ— æ³•è¯»å–URLè§£å†³æ–¹æ³•
 
-68£¬https://designcode.io/sketch                                        //Sketch 3: ÕâÊÇÒ»¸ö×¨ÎªÉè¼ÆÒÆ¶¯¶Ë UI µÄÉè¼Æ¹¤¾ß
-69,http://www.androiddevtools.cn/                                         //android Ïà¹Ø×ÊÔ´ÏÂÔØµØÖ·
+68ï¼Œhttps://designcode.io/sketch                                        //Sketch 3: è¿™æ˜¯ä¸€ä¸ªä¸“ä¸ºè®¾è®¡ç§»åŠ¨ç«¯ UI çš„è®¾è®¡å·¥å…·
+69,http://www.androiddevtools.cn/                                         //android ç›¸å…³èµ„æºä¸‹è½½åœ°å€
 
-70£¬http://blog.csdn.net/wawxf2008/article/details/8459365                //Android viewÖĞµÄrequestLayoutºÍinvalidate·½·¨
-71£¬http://blog.csdn.net/swust_chenpeng/article/details/11807477          //getViewTreeObserver   viewµÄ¹Û²ìÕß
+70ï¼Œhttp://blog.csdn.net/wawxf2008/article/details/8459365                //Android viewä¸­çš„requestLayoutå’Œinvalidateæ–¹æ³•
+71ï¼Œhttp://blog.csdn.net/swust_chenpeng/article/details/11807477          //getViewTreeObserver   viewçš„è§‚å¯Ÿè€…
 
-72£¬http://blog.csdn.net/jason0539/article/details/42743531               //viewµÄ×ø±êÎ»ÖÃ
-73£¬http://www.linuxidc.com/Linux/2015-11/125391.htm                       //viewµÄ×ø±êÎ»ÖÃ
-74£¬http://blog.csdn.net/lvxiangan/article/details/19971509               //viewµÄ×ø±êÎ»ÖÃ
-75,http://blog.csdn.net/u012403246/article/details/41477427?utm_source=tuicool&utm_medium=referral                 //×Ô¶¨Òå½ø¶ÈÌõ
-76,http://blog.csdn.net/cappuccinolau/article/details/8262821/                             //webview ºÍjsµÄ½»»¥
-77£¬http://www.open-open.com/lib/view/open1416664325648.html                    //Material DesignÏê½â£¨Ö÷ÌâºÍ²¼¾Ö£© 
-77£¬http://blog.sina.com.cn/s/blog_6e334dc70102ve7d.html                                 //Material DesignÏê½â£¨Ö÷ÌâºÍ²¼¾Ö£© 
-78£¬http://www.open-open.com/lib/view/open1416663769680.html                    //Material DesignÏê½â£¨¶¯»­Æª£© 
-79£¬http://wiki.jikexueyuan.com/project/material-design/components/menus.html     //Material DesignÖĞÎÄ·­Òë
-80£¬http://blog.csdn.net/eclipsexys/article/details/46349721   //Android Design Support LibraryÊ¹ÓÃÏê½â 
-81£¬http://www.jcodecraeer.com/a/anzhuokaifa/developer/2015/0531/2958.html         //AndroidµÄ²ÄÁÏÉè¼Æ¼æÈİ¿â£¨Design Support Library£©
-82£¬http://blog.jobbole.com/78960/                                                                                    //gitÊ¹ÓÃÏê½â
-82£¬http://www.cnblogs.com/timsheng/archive/2012/11/28/2792977.html                 //gitÊ¹ÓÃÏê½â
-83£¬http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000      //gitÊ¹ÓÃÏê½â
-84,http://blog.zhaiyifan.cn/2015/09/10/Android%E6%8D%A2%E8%82%A4%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/         //android »»·ô¼¼Êõ×Ü½á
-85£¬http://blog.csdn.net/a379992210/article/details/48423923                                                                                                                 //PopupMenu 
-86£¬http://blog.csdn.net/harvic880925/article/details/40787203                                                                                                               // EventBusÊ¹ÓÃÏê½â(¶ş)¡ª¡ªEventBusÊ¹ÓÃ½ø½× 
-87£¬http://www.nowamagic.net/academy/detail/50161533                                      //ActionBarDrawerToggleµÄ¼òÒª½éÉÜ
-http://blog.csdn.net/chencehnggq/article/details/21492417                                      //ActionBarDrawerToggleµÄ¼òÒª½éÉÜ
-88£¬https://www.baidufe.com/item/3444ee051f8edb361d12.html                             //web½çÃæµ÷Æğ Ô­Ê¼app
-89£¬http://blog.csdn.net/haolongabc/article/details/7249098                                   //Ïß³Ì°²È«
-90£¬http://blog.csdn.net/yongjian1092/article/details/7364451                                //java ·´ÉäÏê½â
-91£¬http://www.cnblogs.com/xiaoluo501395377/p/3383130.html                            //javaµÄ¶¯Ì¬´úÀí
-91,http://www.open-open.com/lib/view/open1449404113542.html                          //android ¶¯Ì¬¼ÓÔØÏê½â
-92£¬http://drops.wooyun.org/tips/2423                                                                        //ÒÆ¶¯×¥°ü½Ì³Ì
- 93£¬  http://www.open-open.com/lib/view/open1397274257325.html                       //¼ÓÃÜÏê½â
-94£¬http://www.cnblogs.com/engine1984/p/4146621.html                                            //IntentÏê½â  
+72ï¼Œhttp://blog.csdn.net/jason0539/article/details/42743531               //viewçš„åæ ‡ä½ç½®
+73ï¼Œhttp://www.linuxidc.com/Linux/2015-11/125391.htm                       //viewçš„åæ ‡ä½ç½®
+74ï¼Œhttp://blog.csdn.net/lvxiangan/article/details/19971509               //viewçš„åæ ‡ä½ç½®
+75,http://blog.csdn.net/u012403246/article/details/41477427?utm_source=tuicool&utm_medium=referral                 //è‡ªå®šä¹‰è¿›åº¦æ¡
+76,http://blog.csdn.net/cappuccinolau/article/details/8262821/                             //webview å’Œjsçš„äº¤äº’
+77ï¼Œhttp://www.open-open.com/lib/view/open1416664325648.html                    //Material Designè¯¦è§£ï¼ˆä¸»é¢˜å’Œå¸ƒå±€ï¼‰ 
+77ï¼Œhttp://blog.sina.com.cn/s/blog_6e334dc70102ve7d.html                                 //Material Designè¯¦è§£ï¼ˆä¸»é¢˜å’Œå¸ƒå±€ï¼‰ 
+78ï¼Œhttp://www.open-open.com/lib/view/open1416663769680.html                    //Material Designè¯¦è§£ï¼ˆåŠ¨ç”»ç¯‡ï¼‰ 
+79ï¼Œhttp://wiki.jikexueyuan.com/project/material-design/components/menus.html     //Material Designä¸­æ–‡ç¿»è¯‘
+80ï¼Œhttp://blog.csdn.net/eclipsexys/article/details/46349721   //Android Design Support Libraryä½¿ç”¨è¯¦è§£ 
+81ï¼Œhttp://www.jcodecraeer.com/a/anzhuokaifa/developer/2015/0531/2958.html         //Androidçš„ææ–™è®¾è®¡å…¼å®¹åº“ï¼ˆDesign Support Libraryï¼‰
+82ï¼Œhttp://blog.jobbole.com/78960/                                                                                    //gitä½¿ç”¨è¯¦è§£
+82ï¼Œhttp://www.cnblogs.com/timsheng/archive/2012/11/28/2792977.html                 //gitä½¿ç”¨è¯¦è§£
+83ï¼Œhttp://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000      //gitä½¿ç”¨è¯¦è§£
+84,http://blog.zhaiyifan.cn/2015/09/10/Android%E6%8D%A2%E8%82%A4%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/         //android æ¢è‚¤æŠ€æœ¯æ€»ç»“
+85ï¼Œhttp://blog.csdn.net/a379992210/article/details/48423923                                                                                                                 //PopupMenu 
+86ï¼Œhttp://blog.csdn.net/harvic880925/article/details/40787203                                                                                                               // EventBusä½¿ç”¨è¯¦è§£(äºŒ)â€”â€”EventBusä½¿ç”¨è¿›é˜¶ 
+87ï¼Œhttp://www.nowamagic.net/academy/detail/50161533                                      //ActionBarDrawerToggleçš„ç®€è¦ä»‹ç»
+http://blog.csdn.net/chencehnggq/article/details/21492417                                      //ActionBarDrawerToggleçš„ç®€è¦ä»‹ç»
+88ï¼Œhttps://www.baidufe.com/item/3444ee051f8edb361d12.html                             //webç•Œé¢è°ƒèµ· åŸå§‹app
+89ï¼Œhttp://blog.csdn.net/haolongabc/article/details/7249098                                   //çº¿ç¨‹å®‰å…¨
+90ï¼Œhttp://blog.csdn.net/yongjian1092/article/details/7364451                                //java åå°„è¯¦è§£
+91ï¼Œhttp://www.cnblogs.com/xiaoluo501395377/p/3383130.html                            //javaçš„åŠ¨æ€ä»£ç†
+91,http://www.open-open.com/lib/view/open1449404113542.html                          //android åŠ¨æ€åŠ è½½è¯¦è§£
+91,https://github.com/zhongweilijinwei/Small                                         //android åŠ¨æ€åŠ è½½çš„ æ¡†æ¶
+92,http://www.jianshu.com/p/9d15d7e7f0a9                                             //Small ä»‹ç»æ–‡ç« 
+92ï¼Œhttp://www.jianshu.com/p/7990714d10cb                                            //Small ä»‹ç»æ–‡ç« 
+93ï¼Œhttp://www.jianshu.com/p/5892ec1043d9 
+93ï¼Œhttp://www.cnblogs.com/yueqian-scut/p/5337103.html                                 //Small ä»‹ç»æ–‡ç« 
 
-96,http://blog.csdn.net/ma969070578/article/details/42426489         /   http://sspai.com/24066/                            //Genymotion Ä£ÄâÆ÷°²×°½Ì³Ì
-97£¬http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0430/2815.html                                             //RXjava ºÍRXandroid ½²½â
-97£¬http://rxjava.yuxingxin.com/                                                                                                                                    //RXjava ÕªÒª ÖĞÎÄ·­Òë
-98£¬http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0701/3125.html                                             //RXjava   Ïê½â
-98,http://gank.io/post/56e80c2c677659311bed9841                                                                                                   //RxJava Óë Retrofit ½áºÏµÄ×î¼ÑÊµ¼ù
-98£¬http://apistore.baidu.com/astore/toolshttpproxy                                                                                                 //APIµ÷ÊÔ¹¤¾ß
-99£¬http://www.chuanke.com/?mod=school&act=show&do=course&sid=2869716                                                //U8sdk ´ò°üÊÓÆµ½²½â
-100£¬http://wiki.jikexueyuan.com/project/react-native/                                                                                              //React Native  ¿çÆ½Ì¨app¿ª·¢
-100£¬http://reactnative.cn/docs/0.24/getting-started.html                                                                                           //React Native  ¿çÆ½Ì¨app¿ª·¢
-100£¬https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112134&idx=1&sn=c26ceb682e361ae33bc1eb5348e5e7bb&scene=1&srcid=0428UDNGZSZ9EwESUV5vzEOU&key=b28b03434249256bb49f9f829b11e8d7834e200f2e4e53287d0939e2913506a8a1b11d77ec0234157f39a580765d8df9&ascene=0&uin=MTYzMjY2MTE1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.4+build%2815E65%29&version=11020201&pass_ticket=t%2FCcK%2FUoLixOCwNHbKXztUPEHqJJ3wy6LWy6scPVIFQ%3D                                   //React Native  ¿çÆ½Ì¨app¿ª·¢
-101£¬https://github.com/nukc/SearchViewAnalysis               //android ×Ô´øµÄËÑË÷¿ò
-102£¬http://www.jcodecraeer.com/plus/search.php?kwtype=0&q=ndk           //ndkÑĞ¾¿
-103£¬http://blog.csdn.net/asmcvc/article/details/9311541                                //ndkÑĞ¾¿
-103£¬http://blog.csdn.net/asmcvc/article/details/10006215                             //ndkÑĞ¾¿
-103£¬http://blog.csdn.net/ownwell/article/details/8137376                               //ndkÑĞ¾¿
-103£¬http://blog.csdn.net/yanbober/article/details/45309049                           //ndkÑĞ¾¿
-103£¬http://vaero.blog.51cto.com/4350852/782787                                             //ndkÑĞ¾¿
-104£¬http://www.knowsky.com/539117.html                                                       //×¢½âÊ½¿ª·¢
-104£¬http://www.importnew.com/14227.html                                                       //×¢½âÊ½¿ª·¢
-104£¬http://www.jb51.net/article/46350.htm                                                       //×¢½âÊ½¿ª·¢
-104£¬http://ifeve.com/java-annotations/                                                       //×¢½âÊ½¿ª·¢
-104£¬http://blog.sina.com.cn/s/blog_4e1e357d0101abda.html                   //×¢½âÊ½¿ª·¢
-105£¬http://blog.csdn.net/guolin_blog/article/details/43536355               //ÊôĞÔ¶¯»­Ïê½â
-105£¬http://hujiaweibujidao.github.io/blog/2016/05/26/when-math-meets-android-animation/   //ÊôĞÔ¶¯»­Ïê½â
-106,http://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&mid=2651232105&idx=1&sn=fcc4fa956f329f839f2a04793e7dd3b9&scene=0#rd        //¶¯Ì¬Éú³ÉDrawable »òDrawableµÄ×ÓÀà
-107,https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B05%5DPath_Basic.md       //»­²¼ºÍ»­±Ê×ö×Ô¶¨Òåview µÄÏµÁĞÎÄÕÂ
+92ï¼Œhttp://drops.wooyun.org/tips/2423                                                                        //ç§»åŠ¨æŠ“åŒ…æ•™ç¨‹
+ 93ï¼Œ  http://www.open-open.com/lib/view/open1397274257325.html                       //åŠ å¯†è¯¦è§£
+94ï¼Œhttp://www.cnblogs.com/engine1984/p/4146621.html                                            //Intentè¯¦è§£  
+
+96,http://blog.csdn.net/ma969070578/article/details/42426489         /   http://sspai.com/24066/                            //Genymotion æ¨¡æ‹Ÿå™¨å®‰è£…æ•™ç¨‹
+97ï¼Œhttp://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0430/2815.html                                             //RXjava å’ŒRXandroid è®²è§£
+97ï¼Œhttp://rxjava.yuxingxin.com/                                                                                                                                    //RXjava æ‘˜è¦ ä¸­æ–‡ç¿»è¯‘
+98ï¼Œhttp://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0701/3125.html                                             //RXjava   è¯¦è§£
+98,http://gank.io/post/56e80c2c677659311bed9841                                                                                                   //RxJava ä¸ Retrofit ç»“åˆçš„æœ€ä½³å®è·µ
+98ï¼Œhttp://apistore.baidu.com/astore/toolshttpproxy                                                                                                 //APIè°ƒè¯•å·¥å…·
+99ï¼Œhttp://www.chuanke.com/?mod=school&act=show&do=course&sid=2869716                                                //U8sdk æ‰“åŒ…è§†é¢‘è®²è§£
+100ï¼Œhttp://wiki.jikexueyuan.com/project/react-native/                                                                                              //React Native  è·¨å¹³å°appå¼€å‘
+100ï¼Œhttp://reactnative.cn/docs/0.24/getting-started.html                                                                                           //React Native  è·¨å¹³å°appå¼€å‘
+100ï¼Œhttps://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112134&idx=1&sn=c26ceb682e361ae33bc1eb5348e5e7bb&scene=1&srcid=0428UDNGZSZ9EwESUV5vzEOU&key=b28b03434249256bb49f9f829b11e8d7834e200f2e4e53287d0939e2913506a8a1b11d77ec0234157f39a580765d8df9&ascene=0&uin=MTYzMjY2MTE1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.4+build%2815E65%29&version=11020201&pass_ticket=t%2FCcK%2FUoLixOCwNHbKXztUPEHqJJ3wy6LWy6scPVIFQ%3D                                   //React Native  è·¨å¹³å°appå¼€å‘
+101ï¼Œhttps://github.com/nukc/SearchViewAnalysis               //android è‡ªå¸¦çš„æœç´¢æ¡†
+102ï¼Œhttp://www.jcodecraeer.com/plus/search.php?kwtype=0&q=ndk           //ndkç ”ç©¶
+103ï¼Œhttp://blog.csdn.net/asmcvc/article/details/9311541                                //ndkç ”ç©¶
+103ï¼Œhttp://blog.csdn.net/asmcvc/article/details/10006215                             //ndkç ”ç©¶
+103ï¼Œhttp://blog.csdn.net/ownwell/article/details/8137376                               //ndkç ”ç©¶
+103ï¼Œhttp://blog.csdn.net/yanbober/article/details/45309049                           //ndkç ”ç©¶
+103ï¼Œhttp://vaero.blog.51cto.com/4350852/782787                                             //ndkç ”ç©¶
+104ï¼Œhttp://www.knowsky.com/539117.html                                                       //æ³¨è§£å¼å¼€å‘
+104ï¼Œhttp://www.importnew.com/14227.html                                                       //æ³¨è§£å¼å¼€å‘
+104ï¼Œhttp://www.jb51.net/article/46350.htm                                                       //æ³¨è§£å¼å¼€å‘
+104ï¼Œhttp://ifeve.com/java-annotations/                                                       //æ³¨è§£å¼å¼€å‘
+104ï¼Œhttp://blog.sina.com.cn/s/blog_4e1e357d0101abda.html                   //æ³¨è§£å¼å¼€å‘
+105ï¼Œhttp://blog.csdn.net/guolin_blog/article/details/43536355               //å±æ€§åŠ¨ç”»è¯¦è§£
+105ï¼Œhttp://hujiaweibujidao.github.io/blog/2016/05/26/when-math-meets-android-animation/   //å±æ€§åŠ¨ç”»è¯¦è§£
+106,http://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&mid=2651232105&idx=1&sn=fcc4fa956f329f839f2a04793e7dd3b9&scene=0#rd        //åŠ¨æ€ç”ŸæˆDrawable æˆ–Drawableçš„å­ç±»
+107,https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B05%5DPath_Basic.md       //ç”»å¸ƒå’Œç”»ç¬”åšè‡ªå®šä¹‰view çš„ç³»åˆ—æ–‡ç« 
 
 
