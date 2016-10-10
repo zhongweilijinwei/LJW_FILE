@@ -244,7 +244,7 @@ http://www.cnblogs.com/codingmyworld/archive/2011/09/12/2174255.html            
 
 40，http://mp.weixin.qq.com/s?__biz=MzA3Mjk1MjA4Nw==&mid=400452659&idx=1&sn=841b49b875ec3b307f261ed52a7d9c4e&scene=23&srcid=1119JWRt0adNwGxTHiyok460#rd   //Android App 线上热修复方案 
 41，http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=400118620&idx=1&sn=b4fdd5055731290eef12ad0d17f39d4a&scene=0&uin=MTYzMjY2MTE1&key=04dce534b3b035ef49d8b47c3f8dc1399d737e94c7a40b1a38561c6fcf48d000a1f40ec4bf530d2534dd865875c0c8c7&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.1+build%2815B42%29&version=11020201&lang=en&pass_ticket=1zsiC5hQfwATA4R3ndq32UtcvN%2B5kATcavEv4xN2HMY%3D    //安卓App热补丁动态修复技术介绍
-
+42，http://blog.csdn.net/axi295309066/article/details/52344739    //安卓App热补丁动态修复技术介绍
 42，https://github.com/tianzhijiexian/Android-Best-Practices/blob/master/2015.10/adapter/adapter.md        //Adapter最佳实践
 
 43，http://blog.aaapei.com/article/2015/02/facebookxin-wen-ye-listviewyou-hua           //facebook新闻页ListView优化
