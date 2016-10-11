@@ -373,5 +373,5 @@ http://blog.csdn.net/chencehnggq/article/details/21492417                       
 105，http://hujiaweibujidao.github.io/blog/2016/05/26/when-math-meets-android-animation/   //属性动画详解
 106,http://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&mid=2651232105&idx=1&sn=fcc4fa956f329f839f2a04793e7dd3b9&scene=0#rd        //动态生成Drawable 或Drawable的子类
 107,https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B05%5DPath_Basic.md       //画布和画笔做自定义view 的系列文章
-
+108,http://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650821209&idx=1&sn=6821835111ce0ab4452866efaf4d78f2&chksm=80b786c7b7c00fd19663782b9ac51dea1c881456a3933e6848aa7d24aec0eb56066f504022f9&scene=0#wechat_redirect       //增量更新方案
 
