@@ -1,4 +1,23 @@
 
+Android 开发程序员网站推荐:http://gold.xitu.io/entry/580089645bbb50005b592888
+Android 工程师必备技能！:http://gold.xitu.io/entry/58032431d203090068314066
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // v7或v4等兼容包的一些说明：
 android support repository主要是方便在gradle中使用android support libraries，
 因为Google并没有把这些库发布到maven center或者jcenter去，而是使用了Google自己的maven仓库。（也就是在sdk\extras\android\m2repository下(\com\android\support\appcompat-v7)）
@@ -374,4 +393,4 @@ http://blog.csdn.net/chencehnggq/article/details/21492417                       
 106,http://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&mid=2651232105&idx=1&sn=fcc4fa956f329f839f2a04793e7dd3b9&scene=0#rd        //动态生成Drawable 或Drawable的子类
 107,https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B05%5DPath_Basic.md       //画布和画笔做自定义view 的系列文章
 108,http://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650821209&idx=1&sn=6821835111ce0ab4452866efaf4d78f2&chksm=80b786c7b7c00fd19663782b9ac51dea1c881456a3933e6848aa7d24aec0eb56066f504022f9&scene=0#wechat_redirect       //增量更新方案
-
+109:http://gold.xitu.io/entry/5801fb360bd1d0005800fad1            //Android 自定义 View——Matrix 原理
