@@ -163,7 +163,7 @@ listView.setEmptyView(emptyView);//当内容为空的时候 给listView 添加�
 
 一，非常重要的一些技术文章链接：
 
-
+http://www.jianshu.com/p/f174d49b391c                //从源码角度认识ArrayList，LinkedList与HashMap
 http://blog.zhaiyifan.cn/            与技术周报一样吊的技术网站
 http://www.open-open.com/lib/view/open1453008154245.html                                       //android 网络请求研究
 http://www.cnblogs.com/codingmyworld/archive/2011/09/12/2174255.html                   //Handler原理一篇不错的文章
