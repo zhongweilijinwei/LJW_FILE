@@ -399,6 +399,6 @@ http://blog.csdn.net/chencehnggq/article/details/21492417                       
 110:http://www.jianshu.com/p/1912473dff9a                    //mvc,mvp，解析
 110:http://www.jianshu.com/p/c1c546724e4d                    //mvc,mvp，解析
 110:http://gold.xitu.io/entry/5808715a0e3dd900589f8c84       //mvc,mvp，解析
-
+110:http://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650236921&idx=1&sn=4b2826b600a26b1cd3349ac91593b361&scene=4#wechat_redirect         //mvp，解析
 
 
