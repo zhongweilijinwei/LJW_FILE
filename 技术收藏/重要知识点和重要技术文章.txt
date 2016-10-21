@@ -1,7 +1,7 @@
 
 Android 开发程序员网站推荐:http://gold.xitu.io/entry/580089645bbb50005b592888
 Android 工程师必备技能！:http://gold.xitu.io/entry/58032431d203090068314066
-
+开发 Material Design+RxJava+Retrofit+MVP App 参考资料:https://gold.xitu.io/entry/5806babe0e3dd9005724f68d
 
 
 
@@ -394,3 +394,11 @@ http://blog.csdn.net/chencehnggq/article/details/21492417                       
 107,https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B05%5DPath_Basic.md       //画布和画笔做自定义view 的系列文章
 108,http://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650821209&idx=1&sn=6821835111ce0ab4452866efaf4d78f2&chksm=80b786c7b7c00fd19663782b9ac51dea1c881456a3933e6848aa7d24aec0eb56066f504022f9&scene=0#wechat_redirect       //增量更新方案
 109:http://gold.xitu.io/entry/5801fb360bd1d0005800fad1            //Android 自定义 View——Matrix 原理
+
+
+110:http://www.jianshu.com/p/1912473dff9a                    //mvc,mvp，解析
+110:http://www.jianshu.com/p/c1c546724e4d                    //mvc,mvp，解析
+110:http://gold.xitu.io/entry/5808715a0e3dd900589f8c84       //mvc,mvp，解析
+
+
+
