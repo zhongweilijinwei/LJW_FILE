@@ -199,7 +199,7 @@ http://www.cnblogs.com/codingmyworld/archive/2011/09/12/2174255.html            
 14，http://blog.csdn.net/innost/article/details/48228651            //深入理解Android之Gradle 
 
 15，http://www.jianshu.com/p/02cb9a0eb2a0        //Android Studio中Gradle使用详解
-
+15,http://mp.weixin.qq.com/s?__biz=MzIwNjQ1NzQxNA==&mid=2247483946&idx=1&sn=da2458e2e6cd87115adec58ac0b0d3c6&chksm=97201d03a05794150a48bf3c0586b11c355c541dcd5b0f76dcad7fd1304d080459e6564d8298&mpshare=1&scene=1&srcid=1017GVivyfq4lSBaNEpMCXJu#rd                //认识AndroidStudio和Gradle
 16,http://jijiaxin89.com/2015/08/29/gradle-use-note/             //Gradle 用法总结 
 
 17，http://www.csdn.net/article/2015-08-10/2825420/2                //Android项目中如何用好构建神器Gradle？
@@ -396,9 +396,6 @@ http://blog.csdn.net/chencehnggq/article/details/21492417                       
 109:http://gold.xitu.io/entry/5801fb360bd1d0005800fad1            //Android 自定义 View——Matrix 原理
 
 
-110:http://www.jianshu.com/p/1912473dff9a                    //mvc,mvp，解析
-110:http://www.jianshu.com/p/c1c546724e4d                    //mvc,mvp，解析
-110:http://gold.xitu.io/entry/5808715a0e3dd900589f8c84       //mvc,mvp，解析
-110:http://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650236921&idx=1&sn=4b2826b600a26b1cd3349ac91593b361&scene=4#wechat_redirect         //mvp，解析
+
 
 
