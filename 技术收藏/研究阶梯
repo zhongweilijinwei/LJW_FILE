@@ -11,6 +11,9 @@ http://www.jianshu.com/p/569ab68da482
 http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=403539764&idx=1&sn=d30d89e6848a8e13d4da0f5639100e5f#rd
 http://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650821254&idx=1&sn=00135425de3be0834fb84fbe3fd90aea&chksm=80b78618b7c00f0e977f43710fa9e216466aaac91ead5ac8d377b313b929bcf79e5bc1f1d93a&scene=4#wechat_redirect    //mvp生产器插件
 
+
+
+
 2，App启动时间优化
 http://www.woaitqs.cc/android/2016/06/21/activity-service.html   //应用进程启动流程
 http://hukai.me/android-performance-patterns-season-6/   //App启动时间优化
@@ -52,3 +55,13 @@ http://kymjs.com/code/2015/12/12/01/
 6,mvvm 研究
 http://mp.weixin.qq.com/s?__biz=MzA4MjU5NTY0NA==&mid=401410759&idx=1&sn=89f0e3ddf9f21f6a5d4de4388ef2c32f#rd
 https://segmentfault.com/a/1190000003966281
+
+
+7,MVC
+http://www.tuicool.com/articles/U73q2mQ            //完全解析 Android 项目架构 (1) - MVC
+http://www.tuicool.com/articles/ZFRfq2j            //http://www.tuicool.com/articles/U73q2mQ
+http://www.tuicool.com/articles/zi6nM3a           //MVC架构示例
+http://www.tuicool.com/articles/iQNVVjQ            //程序架构——MVC设计模式在Android中的应用
+http://www.tuicool.com/articles/EfaMJrq             //android基础：浅析mvc与mvp
+http://www.tuicool.com/articles/QB7jMzA             //Android与MVC设计模式
+http://www.tuicool.com/articles/Y3eIFf6             //MVC模式
