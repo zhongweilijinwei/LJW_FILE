@@ -31,13 +31,19 @@ https://yq.aliyun.com/articles/6385?spm=5176.100239.yqblog1.16.Gmt2Od&utm_source
 
 4,Dagger 研究
 http://www.jianshu.com/p/01d3c014b0b1
+http://www.tuicool.com/articles/naMBviQ
+http://www.tuicool.com/articles/InUv2yj
+http://www.tuicool.com/articles/jaYRVj2      //Dagger2源码分析-最简单的注入过程
+http://www.tuicool.com/articles/jI3yemA      //带着疑惑走进Dagger2
+http://www.tuicool.com/articles/Yr6NjeM      //Dagger2 入门 1
+http://www.tuicool.com/articles/MBf63u3      //Dagger2 入门 2
 
 
 5， Retrofit 研究
 https://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577186&idx=1&sn=1a5f6369faeb22b4b68ea39f25020d28&scene=0&key=f5c31ae61525f82eff1e94d54c4abd1c47958e9f7fe5751f2d201958841a354f0423e4ce98cb895058808f330921bde6&ascene=0&uin=MTYzMjY2MTE1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.4+build(15E65)&version=11020201&pass_ticket=rsJxex9Bn1eN7iJgW6FUI2KG3V9O6e3TH42j1U%2Fy5SU%3D
 http://www.jianshu.com/p/45cb536be2f4
 http://gank.io/post/56e80c2c677659311bed9841          //RxJava 与 Retrofit 结合的最佳实践
-
+https://realm.io/cn/news/droidcon-jake-wharton-simple-http-retrofit-2/
 6,EventBus 研究
 https://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653576922&idx=2&sn=54ff6079ea410d9b551cbde2c8fd3ae4&scene=0&key=b28b03434249256b9f9f929f5d8342dc8d781c56ce2012a9a95895bd530dff7cb483074dfae0afd57d41191b5bc3cd8e&ascene=0&uin=MTYzMjY2MTE1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.4+build(15E65)&version=11020201&pass_ticket=uvaoqgKrmqCbHvw0ZkIPvREY%2Bd8h88k%2F6G%2BwEl06EuU%3D
 https://segmentfault.com/a/1190000004279679      //EventBus 3.0的用法详解（一）
@@ -45,3 +51,4 @@ http://kymjs.com/code/2015/12/12/01/
 
 6,mvvm 研究
 http://mp.weixin.qq.com/s?__biz=MzA4MjU5NTY0NA==&mid=401410759&idx=1&sn=89f0e3ddf9f21f6a5d4de4388ef2c32f#rd
+https://segmentfault.com/a/1190000003966281
