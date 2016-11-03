@@ -394,7 +394,7 @@ http://blog.csdn.net/chencehnggq/article/details/21492417                       
 107,https://github.com/GcsSloop/AndroidNote/blob/master/CustomView/Advance/%5B05%5DPath_Basic.md       //画布和画笔做自定义view 的系列文章
 108,http://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650821209&idx=1&sn=6821835111ce0ab4452866efaf4d78f2&chksm=80b786c7b7c00fd19663782b9ac51dea1c881456a3933e6848aa7d24aec0eb56066f504022f9&scene=0#wechat_redirect       //增量更新方案
 109:http://gold.xitu.io/entry/5801fb360bd1d0005800fad1            //Android 自定义 View——Matrix 原理
-
+109:http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=2649286405&idx=1&sn=414e2d2eb577884ccee5c9076e8b8357&chksm=8334c387b4434a9124f5acd93f331968a44256b8374eeafb4b1857671072b3b6364e5ec38485&mpshare=1&scene=1&srcid=10217YX3Ym7X8oIIwOsTErmj#rd              //Android ListView与RecyclerView对比浅析--缓存机制 
 
 
 
