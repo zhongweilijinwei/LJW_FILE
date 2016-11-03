@@ -76,3 +76,17 @@ http://www.tuicool.com/articles/YRj2Qr              //前端之Android入门(5):
 http://www.2cto.com/kf/201506/405766.html           //框架模式 MVC 在Android中的使用b
 笔记：Model 负责业务的处理，数据的加载并拥有View的引用，  activity作为Contronller拥有Model的引用， 
 ,View的响应回掉到Contronller，Contronller调用Model处理业务理解，Model处理完就通知view更新界面（这是标准的流程），当然如果项目不大的话activity可同时做为view和Contronller。
+
+
+8,热修复研究
+http://blog.csdn.net/lisdye2/article/details/52049857
+http://blog.csdn.net/lisdye2/article/details/52094693
+blog.csdn.net/lisdye2/article/details/52119602
+
+9，增量d更新研究
+http://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650821209&idx=1&sn=6821835111ce0ab4452866efaf4d78f2&chksm=80b786c7b7c00fd19663782b9ac51dea1c881456a3933e6848aa7d24aec0eb56066f504022f9&scene=0#wechat_redirect
+
+
+10, Material Design
+http://blog.csdn.net/zly921112/article/details/50733435
+http://blog.csdn.net/zly921112/article/details/51318851
