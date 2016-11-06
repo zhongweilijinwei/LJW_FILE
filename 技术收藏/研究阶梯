@@ -96,3 +96,8 @@ http://blog.csdn.net/zly921112/article/details/50733435   //控件使用详解
 http://blog.csdn.net/zly921112/article/details/51318851   //控件使用详解
 http://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650821396&idx=1&sn=dc779021ca94a989ecb2a1173145d2e7&chksm=80b7878ab7c00e9c94f740ab778a14ad400489e3aa62dcd8170dd9a0bbcfacf96be75c96517c&scene=4#wechat_redirect         //沉浸式模式这一篇就够了
 
+11,NDK开发
+http://www.tuicool.com/articles/bMvaMzE     //NDK开发基础  使用Android Studio编写NDK
+http://www.jianshu.com/p/4333d7ddf615       //NDK开发基础②文件加密解密与分割合并
+http://www.tuicool.com/articles/iUziYz3      //NDK开发基础③增量更新之服务器端生成差分包
+http://www.tuicool.com/articles/VVzmaeu      //NDK开发基础④增量更新之客户端合并差分包
