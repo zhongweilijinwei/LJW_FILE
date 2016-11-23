@@ -288,6 +288,7 @@ http://www.cnblogs.com/codingmyworld/archive/2011/09/12/2174255.html            
 49，http://blog.csdn.net/getchance/article/details/47257389              //*.aar 的生成和引用
 
 50，http://jingyan.baidu.com/article/cbcede071d569d02f40b4dd6.html?qq-pf-to=pcqq.c2c    //aar 的生成和引用
+50，http://mp.weixin.qq.com/s/Mtdipz25Zt-8rDC31lAR1w                                    //Android Studio打包apk，aar，jar包
 22，http://chaosleong.github.io/blog/2015/08/02/android-studio-shi-yong-gradle-da-bao-jar/   //Android Studio 使用 Gradle 打包 Jar 
 51,http://laobie.github.io/android/2016/02/14/android-studio-tips.html                  //Android Studio 小技巧合集
 51,https://segmentfault.com/a/1190000004357190                                          //Android最佳实践（一）
