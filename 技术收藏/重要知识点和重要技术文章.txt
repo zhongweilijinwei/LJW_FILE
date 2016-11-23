@@ -3,6 +3,7 @@ Android 开发程序员网站推荐:http://gold.xitu.io/entry/580089645bbb50005b
 Android 工程师必备技能！:http://gold.xitu.io/entry/58032431d203090068314066
 开发 Material Design+RxJava+Retrofit+MVP App 参考资料:https://gold.xitu.io/entry/5806babe0e3dd9005724f68d
 http://mp.weixin.qq.com/s/rOxVj800jnOuVZb2UwwLcw             //用viewpager实现导航界面
+http://mp.weixin.qq.com/s/fjBLv5iNhVzOaEQUOwH0Gg             //防美团的 添加到购物车的抛物线
 
 
 
