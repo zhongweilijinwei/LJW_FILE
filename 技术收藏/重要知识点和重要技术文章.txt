@@ -406,3 +406,4 @@ http://blog.csdn.net/chencehnggq/article/details/21492417                       
 110,http://mp.weixin.qq.com/s/3wKbiqKSz-WSu9JbX0eFUw              //DownloadManager使用详解
 111,http://mp.weixin.qq.com/s/pw5-vAa-nqw1RjPczXc6hg              //利用ZXing生成带LOGO的二维码图片
 112,http://mp.weixin.qq.com/s/wynQjtvWndENvLfzA9qXrw              //调用系统相机  详解
+113,http://mp.weixin.qq.com/s/qP9kKOAXaSSxSeWY-70HaQ              //Android 手把手带你玩转自定义相机
