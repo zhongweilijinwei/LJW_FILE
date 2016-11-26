@@ -407,3 +407,5 @@ http://blog.csdn.net/chencehnggq/article/details/21492417                       
 111,http://mp.weixin.qq.com/s/pw5-vAa-nqw1RjPczXc6hg              //利用ZXing生成带LOGO的二维码图片
 112,http://mp.weixin.qq.com/s/wynQjtvWndENvLfzA9qXrw              //调用系统相机  详解
 113,http://mp.weixin.qq.com/s/qP9kKOAXaSSxSeWY-70HaQ              //Android 手把手带你玩转自定义相机
+114，http://www.tuicool.com/articles/aMBBRzJ                      //Android 拍照或选择图片并剪裁
+115,Android拍照或从相册选择图片并裁剪                                //Android 拍照或选择图片并剪裁
