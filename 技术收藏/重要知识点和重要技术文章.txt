@@ -409,3 +409,5 @@ http://blog.csdn.net/chencehnggq/article/details/21492417                       
 113,http://mp.weixin.qq.com/s/qP9kKOAXaSSxSeWY-70HaQ              //Android 手把手带你玩转自定义相机
 114，http://www.tuicool.com/articles/aMBBRzJ                      //Android 拍照或选择图片并剪裁
 115,http://www.cnblogs.com/w-y-f/p/4028379.html                                //Android 拍照或选择图片并剪裁
+116，http://www.tuicool.com/articles/BrAJ7j                       //httpUrlConnection实现文件上传
+117，http://blog.csdn.net/l_o_s/article/details/52048268          //httpUrlConnection实现文件上传
