@@ -2,5 +2,6 @@ https://my.oschina.net/jackyguo/blog/609049
 https://github.com/rockerhieu/emojicon
 https://github.com/vanniktech/Emoji
 http://blog.csdn.net/z69183787/article/details/48465717
+http://blog.csdn.net/javazejian/article/details/52126391
 
 大概步骤 规则中每一个 Unicode编码的值都对应一个表情  ，本地的表情都是通过该表情的Unicode值命名名字，  
