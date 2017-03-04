@@ -123,6 +123,7 @@ https://github.com/zhongweilijinwei/CityPicker             //走进AndroidStudio
 
 
 12，混淆和打包
+http://www.tuicool.com/articles/ABfiumb      gradle 打包jar 并混淆
 http://huihui.name/2016/10/23/%E5%86%99%E7%BB%99Android%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84%E6%B7%B7%E6%B7%86%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/
 http://mp.weixin.qq.com/s/ZqV3xrxjM8pFiidDEP7A2w            //混淆实战
 http://blog.csdn.net/aloh_a/article/details/50942751        //elicpse 混淆配置
