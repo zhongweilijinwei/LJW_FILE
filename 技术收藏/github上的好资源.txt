@@ -1,41 +1,43 @@
-1£¬https://github.com/zhongweilijinwei/Notes    ¼«¼ò±Ê¼Ç
-2£¬https://github.com/zhongweilijinwei/Remindly    ÄÖÖÓÌáĞÑ£¨Material ·ç¸ñ£¬ìÅ¿áÈÕÆÚÑ¡ÔñºÍÊ±¼äÑ¡Ôñ£©
+1ï¼Œhttps://github.com/zhongweilijinwei/Notes    æç®€ç¬”è®°
+2ï¼Œhttps://github.com/zhongweilijinwei/Remindly    é—¹é’Ÿæé†’ï¼ˆMaterial é£æ ¼ï¼Œç‚«é…·æ—¥æœŸé€‰æ‹©å’Œæ—¶é—´é€‰æ‹©ï¼‰
 
-3£¬http://www.apkbus.com/android-243232-1-1.html     //ÕûÀí¶à¸öìÅ¿á  Material·ç¸ñÏîÄ¿
-4£¬http://www.csdn.net/article/2014-11-21/2822753-material-design-libs/2    //Ê®´óMaterial Design¿ªÔ´ÏîÄ¿
-5£¬https://github.com/zhongweilijinwei/base-adapter          Í¨ÓÃadapter
-6£¬https://github.com/xiepeijie/SwipeCardView            £¨Ò»¸ö´ø½¥±ä²ãµş¶¯»­µÄ×óÓÒ»¬¶¯Ğ§¹û£©¿¨Æ¬Ğ§¹û
-7£¬https://github.com/zhongweilijinwei/FlippableStackView             ¿¨Æ¬Ğ§¹û
-8£¬https://github.com/mxn21/SlidingCard                     //Æ¯ÁÁµÄ¿¨Æ¬»¬¶¯·­Ò³ÌØĞ§¡£
-9,https://github.com/zhongweilijinwei/AndroidSwipeableCardStack   //¿¨Æ¬Ğ§¹û
-10,https://github.com/wenchaojiang/AndroidSwipeableCardStack#readme   //¿¨Æ¬Ğ§¹û
-10,https://github.com/aaronbond/Swipe-Deck                        ////¿¨Æ¬Ğ§¹û
-11,https://github.com/fenjuly/ArrowDownloadButton         //Ò»¸öÆ¯ÁÁµÄÏÂÔØ°´Å¥¡£
-11£¬17,https://github.com/jOOQ/jOOR                         //Ò»¸ö°ïÄã°ÚÍÑ·´ÉäµÄ·±Ëö´úÂëµÄ¿â£¬Á´Ê½µ÷ÓÃ£¬Ò»ĞĞ´úÂë¾Í¿ÉÒÔ·´Éä
+3ï¼Œhttp://www.apkbus.com/android-243232-1-1.html     //æ•´ç†å¤šä¸ªç‚«é…·  Materialé£æ ¼é¡¹ç›®
+4ï¼Œhttp://www.csdn.net/article/2014-11-21/2822753-material-design-libs/2    //åå¤§Material Designå¼€æºé¡¹ç›®
+5ï¼Œhttps://github.com/zhongweilijinwei/base-adapter          é€šç”¨adapter
+6ï¼Œhttps://github.com/xiepeijie/SwipeCardView            ï¼ˆä¸€ä¸ªå¸¦æ¸å˜å±‚å åŠ¨ç”»çš„å·¦å³æ»‘åŠ¨æ•ˆæœï¼‰å¡ç‰‡æ•ˆæœ
+7ï¼Œhttps://github.com/zhongweilijinwei/FlippableStackView             å¡ç‰‡æ•ˆæœ
+8ï¼Œhttps://github.com/mxn21/SlidingCard                     //æ¼‚äº®çš„å¡ç‰‡æ»‘åŠ¨ç¿»é¡µç‰¹æ•ˆã€‚
+9,https://github.com/zhongweilijinwei/AndroidSwipeableCardStack   //å¡ç‰‡æ•ˆæœ
+10,https://github.com/wenchaojiang/AndroidSwipeableCardStack#readme   //å¡ç‰‡æ•ˆæœ
+10,https://github.com/aaronbond/Swipe-Deck                        ////å¡ç‰‡æ•ˆæœ
+11,https://github.com/fenjuly/ArrowDownloadButton         //ä¸€ä¸ªæ¼‚äº®çš„ä¸‹è½½æŒ‰é’®ã€‚
+11ï¼Œ17,https://github.com/jOOQ/jOOR                         //ä¸€ä¸ªå¸®ä½ æ‘†è„±åå°„çš„ç¹çä»£ç çš„åº“ï¼Œé“¾å¼è°ƒç”¨ï¼Œä¸€è¡Œä»£ç å°±å¯ä»¥åå°„
 
-12,https://github.com/zhongweilijinwei/SuperSwipeRefreshLayout              //ºÃÓÃµÄÏÂÀ­Ë¢ĞÂ
-13£¬https://github.com/zhongweilijinwei/WaveSwipeRefreshLayout            //Ë®µÎ¶¯»­Ğ§¹ûµÄÏÂÀ­Ë¢ĞÂĞ§¹û¡£
+12,https://github.com/zhongweilijinwei/SuperSwipeRefreshLayout              //å¥½ç”¨çš„ä¸‹æ‹‰åˆ·æ–°
+13ï¼Œhttps://github.com/zhongweilijinwei/WaveSwipeRefreshLayout            //æ°´æ»´åŠ¨ç”»æ•ˆæœçš„ä¸‹æ‹‰åˆ·æ–°æ•ˆæœã€‚
 
-14,https://github.com/zhongweilijinwei/GalleryFinal                         //Android×Ô¶¨ÒåÏà²á£¬ÊµÏÖÁËÅÄÕÕ¡¢Í¼Æ¬Ñ¡Ôñ£¨µ¥Ñ¡/¶àÑ¡£©¡¢ ²Ã¼ô£¨µ¥/¶à²Ã¼ô£©
+14,https://github.com/zhongweilijinwei/GalleryFinal                         //Androidè‡ªå®šä¹‰ç›¸å†Œï¼Œå®ç°äº†æ‹ç…§ã€å›¾ç‰‡é€‰æ‹©ï¼ˆå•é€‰/å¤šé€‰ï¼‰ã€ è£å‰ªï¼ˆå•/å¤šè£å‰ªï¼‰
 
-15,https://github.com/zhongweilijinwei/floatingsearchview      //¸¡¶¯ËÑË÷¿ò¡£
+15,https://github.com/zhongweilijinwei/floatingsearchview      //æµ®åŠ¨æœç´¢æ¡†ã€‚
 
-16,https://github.com/zhongweilijinwei/TimelineView           //Æ¯ÁÁµÄÊ±¼äÖá×Ô¶¨Òå View
+16,https://github.com/zhongweilijinwei/TimelineView           //æ¼‚äº®çš„æ—¶é—´è½´è‡ªå®šä¹‰ View
 
-17,https://github.com/badoualy/morphy-toolbar                 //¿ÉÒÔÕÛµşºÍÕ¹¿ªµÄ Toolbar
+17,https://github.com/badoualy/morphy-toolbar                 //å¯ä»¥æŠ˜å å’Œå±•å¼€çš„ Toolbar
 
-18,https://github.com/zhongweilijinwei/AppUpdater                  //¼ì²âÓ¦ÓÃ¸üĞÂµÄ¿â
+18,https://github.com/zhongweilijinwei/AppUpdater                  //æ£€æµ‹åº”ç”¨æ›´æ–°çš„åº“
 
-19,https://github.com/zhongweilijinwei/DragRecyclerView              //ÁĞ±í Item Ö§³ÖÍÏ¶¯ÅÅĞòµÄ RecyclerView
+19,https://github.com/zhongweilijinwei/DragRecyclerView              //åˆ—è¡¨ Item æ”¯æŒæ‹–åŠ¨æ’åºçš„ RecyclerView
 
-20,https://github.com/zhongweilijinwei/leakcanary            //ÄÚ´æĞ¹Â¶¼à²âÏîÄ¿£¨http://www.liaohuqiu.net/cn/posts/leak-canary-read-me/    //ÖĞÎÄÊ¹ÓÃËµÃ÷£©
-21£¬https://github.com/zhongweilijinwei/proguard              //»ìÏıºÍÑ¹ËõÏîÄ¿
+20,https://github.com/zhongweilijinwei/leakcanary            //å†…å­˜æ³„éœ²ç›‘æµ‹é¡¹ç›®ï¼ˆhttp://www.liaohuqiu.net/cn/posts/leak-canary-read-me/    //ä¸­æ–‡ä½¿ç”¨è¯´æ˜ï¼‰
+21ï¼Œhttps://github.com/zhongweilijinwei/proguard              //æ··æ·†å’Œå‹ç¼©é¡¹ç›®
 
-22£¬https://github.com/zhongweilijinwei/cheesesquare           //²ÄÁÏÉè¼Æ¿âµÄÀı×Ó
-23£¬https://github.com/zhongweilijinwei/MaterialDesignLibrary     //²ÄÁÏÉè¼Æ¿âµÄÀı×Ó
+22ï¼Œhttps://github.com/zhongweilijinwei/cheesesquare           //ææ–™è®¾è®¡åº“çš„ä¾‹å­
+23ï¼Œhttps://github.com/zhongweilijinwei/MaterialDesignLibrary     //ææ–™è®¾è®¡åº“çš„ä¾‹å­
 
-24,https://github.com/zhongweilijinwei/DragSortAdapter           //¿ÉÒÔÍÏ¶¯Î»ÖÃµÄadapter
+24,https://github.com/zhongweilijinwei/DragSortAdapter           //å¯ä»¥æ‹–åŠ¨ä½ç½®çš„adapter
 
-25£¬https://github.com/zhongweilijinwei/Android-PullToRefresh     //·Ç³£ºÃÓÃµÄÏÂÀ­Ë¢ĞÂ
+25ï¼Œhttps://github.com/zhongweilijinwei/Android-PullToRefresh     //éå¸¸å¥½ç”¨çš„ä¸‹æ‹‰åˆ·æ–°
 
-26£¬https://github.com/zhongweilijinwei/XRecyclerView              //ÏÂÀ­Ë¢ĞÂµÄRecyclerView
+26ï¼Œhttps://github.com/zhongweilijinwei/XRecyclerView              //ä¸‹æ‹‰åˆ·æ–°çš„RecyclerView
+
+27,https://github.com/Zhaoss/WeiXinRecordedDemo                   //ä»¿å¾®ä¿¡å°è§†å±å½•åˆ¶
