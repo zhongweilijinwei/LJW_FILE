@@ -148,4 +148,5 @@ http://blog.zhaiyifan.cn/2016/02/09/android-reverse-1/    //Android逆向工程
 http://drops.wooyun.org/mobile/12172                 //Android应用安全开发之源码安全
 
 16 Android gradle 教程
-https://segmentfault.com/a/1190000004229002
+https://segmentfault.com/a/1190000004229002       
+https://docs.gradle.org/3.3/dsl/org.gradle.api.tasks.bundling.Jar.html#gsc.tab=0      //gradle  API
