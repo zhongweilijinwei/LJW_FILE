@@ -416,3 +416,4 @@ http://blog.csdn.net/chencehnggq/article/details/21492417                       
 119,http://mp.weixin.qq.com/s/gxdtTYxzsitsKd6oC0Q74g               //Android 6.0运行时权限详解
 119,http://www.tuicool.com/articles/YrMjay                         //Android 6.0运行时权限详解
 120,http://mp.weixin.qq.com/s/3wKbiqKSz-WSu9JbX0eFUw               //DownloadManager使用详解 
+121,http://www.25xt.com/android                                  //界面设计规范
