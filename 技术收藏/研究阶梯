@@ -163,5 +163,8 @@ http://www.cnblogs.com/gordon0918/p/5466514.html           java文件转smali
 
 
 19 webView 缓存 及hybrid APP
-http://mp.weixin.qq.com/s/qHm_dJBhVbv0pJs8Crp77w
+http://mp.weixin.qq.com/s/qHm_dJBhVbv0pJs8Crp77w         //H5 和移动端 WebView 缓存机制解析与实战 
 
+
+20 通知栏 和状态栏 研究
+http://iluhcm.com/2017/03/12/experience-of-adapting-to-android-notifications/index.html     //Android通知栏介绍与适配总结 
