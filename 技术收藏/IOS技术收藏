@@ -3,3 +3,24 @@ http://www.niaogebiji.com/article-9882-1.html       //2016年最新苹果开发�
 http://www.jianshu.com/p/1bd34f15ec29               //很详细
 http://www.jianshu.com/p/01224fc523d4               //iOS 证书申请和使用详解
 http://www.cocoachina.com/bbs/read.php?tid=313878   //申请过程的注意点
+
+二，签名，证书，从新打包
+
+http://www.jianshu.com/p/9c6c7d6fb115               //ipa包重签名研究
+http://mobile.51cto.com/hot-439106.htm              //ios 自动化打包
+http://blog.csdn.net/qq_18505715/article/details/48326377      //ios 如何让你的.ipa安装包完美"越狱" 
+http://www.jianshu.com/p/1ff814f6ef34               //苹果企业账号的申请及打包发布流程
+http://ios.jobbole.com/85202/                       //苹果企业账号发布APP详解
+
+http://www.cocoachina.com/appstore/20160708/16990.html      //最全的App上架教程
+http://www.jianshu.com/p/9df7d8930a3e                       //iOS打包成 ipa包
+http://www.jianshu.com/p/dd2b66cbf097                       //iOS-打包成ipa的4种方法
+http://www.jianshu.com/p/a5859d8f8005                       //制作越狱包发布到非App Store平台
+   
+三，渠道区分研究
+http://www.jianshu.com/p/0b598d69d79c               //iOS APP 安装来源分析原理介绍
+http://blog.csdn.net/wangkun_510/article/details/51957187         //ios 获取设备唯一标识
+http://blog.csdn.net/allangold/article/details/52448209           // iOS 获取设备唯一标识 
+
+
+
