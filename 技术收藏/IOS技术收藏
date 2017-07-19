@@ -4,14 +4,11 @@ http://www.jianshu.com/p/1bd34f15ec29               //很详细
 http://www.jianshu.com/p/01224fc523d4               //iOS 证书申请和使用详解
 http://www.cocoachina.com/bbs/read.php?tid=313878   //申请过程的注意点
 
-二，签名，证书，从新打包
+二,证书，打包
 
-http://www.jianshu.com/p/9c6c7d6fb115               //ipa包重签名研究
-http://mobile.51cto.com/hot-439106.htm              //ios 自动化打包
 http://blog.csdn.net/qq_18505715/article/details/48326377      //ios 如何让你的.ipa安装包完美"越狱" 
 http://www.jianshu.com/p/1ff814f6ef34               //苹果企业账号的申请及打包发布流程
 http://ios.jobbole.com/85202/                       //苹果企业账号发布APP详解
-
 http://www.jianshu.com/p/01224fc523d4               //iOS 证书使用详解
 http://blog.csdn.net/love_coders/article/details/47254081          //各个证书文件的详细说明
 http://www.cocoachina.com/appstore/20160708/16990.html      //最全的App上架教程
@@ -29,3 +26,10 @@ http://blog.csdn.net/allangold/article/details/52448209           // iOS 获取�
 http://blog.csdn.net/darling_shadow/article/details/51538267
 http://www.jianshu.com/p/033086546126
 http://www.cnblogs.com/sanshengyanhuo/p/5581080.html
+
+
+五，从新签名
+http://www.jianshu.com/p/9c6c7d6fb115               //ipa包重签名研究
+http://mobile.51cto.com/hot-439106.htm              //ios 自动化打包
+http://www.jianshu.com/p/84ddbef6034b               //iOS开发——ipa包重签
+http://blog.csdn.net/qq_19979539/article/details/50998275     //ipa文件重新签名的方法 
