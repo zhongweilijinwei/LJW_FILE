@@ -419,3 +419,4 @@ http://blog.csdn.net/chencehnggq/article/details/21492417                       
 120,http://mp.weixin.qq.com/s/3wKbiqKSz-WSu9JbX0eFUw               //DownloadManager使用详解 
 121,http://www.25xt.com/android                                  //界面设计规范
 122,http://blog.csdn.net/yulyu/article/details/56481665          //序列化--Serializable与Parcelable 
+123,http://blog.csdn.net/l540675759/article/details/74528641?locationNum=3&fps=1            //软件盘详解
