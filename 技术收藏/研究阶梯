@@ -153,6 +153,8 @@ http://drops.wooyun.org/mobile/12172                 //Android应用安全开发
 16 Android gradle 教程
 https://segmentfault.com/a/1190000004229002       
 https://docs.gradle.org/3.3/dsl/org.gradle.api.tasks.bundling.Jar.html#gsc.tab=0      //gradle  API
+http://blog.csdn.net/innost/article/details/48228651 //深入理解Android之Gradle 
+http://www.jianshu.com/p/02cb9a0eb2a0 //Android Studio中Gradle使用详解
 
 17 ConstraintLayout完全解析 
 http://blog.csdn.net/guolin_blog/article/details/53122387
