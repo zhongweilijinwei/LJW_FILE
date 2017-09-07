@@ -209,6 +209,7 @@ http://www.jianshu.com/p/18530be5dcdd?utm_source=tuicool&utm_medium=referral    
 https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651113434&idx=1&sn=99a473c6fad2f7b366b2cba2afb96f7a&chksm=844c6e07b33be7112222c0d78be23979912f12d6c99ad2c7bfac766e67e4be4619709f170b09&mpshare=1&scene=1&srcid=0628gRj4w4sW8cxYupnu3TXk#rd              //RePlugin 介绍
 
 26 进程 和task 详解
+http://www.cnblogs.com/lizhengxian/p/5075635.html                     //进程通讯的方式种类
 http://blog.csdn.net/Simon_Crystin/article/details/70315106           //这可能是最全的Android:Process （进程）讲解了 
 http://blog.spinytech.com/2016/11/17/android_multiple_process_usage_scenario/  //Android多进程使用场景
 https://developer.android.google.cn/guide/index.html                //官方文档
