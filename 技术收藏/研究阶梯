@@ -36,8 +36,12 @@ http://www.jianshu.com/p/106795175971                //深入android内存分配
 https://yq.aliyun.com/articles/6385?spm=5176.100239.yqblog1.16.Gmt2Od&utm_source=tuicool&utm_medium=referral       Android开发之内存管理 
 
 
-4,Dagger 研究
+4,Dagger 研究（签名三个最详细）
 http://www.jianshu.com/p/cd2c1c9f68d4        //dagger2让你爱不释手系列
+http://blog.csdn.net/io_field/article/details/71122979           //由浅入深，还包含其他标签的详解
+http://blog.csdn.net/u010961631/article/details/72626134          //Component的组织方式详解
+
+
 http://www.jianshu.com/p/01d3c014b0b1
 http://www.tuicool.com/articles/naMBviQ
 http://www.tuicool.com/articles/InUv2yj
