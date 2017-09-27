@@ -46,6 +46,58 @@ http://www.tuicool.com/articles/jI3yemA      //带着疑惑走进Dagger2
 http://www.tuicool.com/articles/Yr6NjeM      //Dagger2 入门 1
 http://www.tuicool.com/articles/MBf63u3      //Dagger2 入门 2
 
+笔记：
+###@Qualifier（限定符）就是解决依赖注入迷失问题的，也就是当创建类的构造函数有多个的时候需要这个标识
+
+###Scope（作用域）：
+1，Singleton没有创建单例的能力，
+  我们就可以创建单例。
+
+    在Module中定义创建全局类实例的方法
+    ApplicationComponent管理Module
+    保证ApplicationComponent只有一个实例（在app的Application中实例化ApplicationComponent）
+
+    dagger2中正真创建单例的方法就是上面的步骤，全局类实例的生命周期也和Application一样了，
+    很关键的一点就是保证ApplicationComponent是只初始化一次。那估计有朋友就会问Singleton那岂不是多余的？
+    答案当然是 no no no。Singleton有以下作用：
+
+    更好的管理ApplicationComponent和Module之间的关系，
+    保证ApplicationComponent和Module是匹配的。若ApplicationComponent和Module的Scope是不一样的，则在编译时报错。
+    代码可读性，
+    让程序猿更好的了解Module中创建的类实例是单例。
+
+
+2，Scope真正用武的时候了
+
+    前面也提到Scope的一些基本概念，那Scope的真正用处就在于Component的组织。
+
+    更好的管理Component之间的组织方式，不管是依赖方式还是包含方式，都有必要用自定义的Scope注解标注这些Component，这些注解最好不要一样了，不一样是为了能更好的体现出Component之间的组织方式。还有编译器检查有依赖关系或包含关系的Component，若发现有Component没有用自定义Scope注解标注，则会报错。
+    更好的管理Component与Module之间的匹配关系，编译器会检查 Component管理的Modules，若发现标注Component的自定义Scope注解与Modules中的标注创建类实例方法的注解不一样，就会报错。
+    可读性提高，如用Singleton标注全局类，这样让程序猿立马就能明白这类是全局单例类。
+
+###组织Component
+
+我们已经把一个app按照上面的规则划分为不同的Component了，全局类实例也创建了单例模式。问题来了其他的Component想要把全局的类实例注入到目标类中该怎么办呢？这就涉及到类实例共享的问题了，因为Component有管理创建类实例的能力。因此只要能很好的组织Component之间的关系，问题就好办了。具体的组织方式分为以下3种：
+
+依赖方式
+一个Component是依赖于一个或多个Component，Component中的dependencies属性就是依赖方式的具体实现
+
+注意点：
+1，被依赖的Component主动暴露对象给二者共享
+2，依赖者的Component在注入的时候需要添加被依赖的Component，函数名就是Component的名字
+
+
+
+包含方式
+一个Component是包含一个或多个Component的，被包含的Component还可以继续包含其他的Component。这种方式特别像Activity与Fragment的关系。SubComponent就是包含方式的具体实现。
+
+继承方式
+官网没有提到该方式，具体没有提到的原因我觉得应该是，该方式不是解决类实例共享的问题，而是从更好的管理、维护Component的角度，把一些Component共有的方法抽象到一个父类中，然后子Component继承。
+
+http://blog.csdn.net/u010961631/article/details/72626134          //Component的组织方式详解
+
+
+
 
 5， Retrofit 研究
 https://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577186&idx=1&sn=1a5f6369faeb22b4b68ea39f25020d28&scene=0&key=f5c31ae61525f82eff1e94d54c4abd1c47958e9f7fe5751f2d201958841a354f0423e4ce98cb895058808f330921bde6&ascene=0&uin=MTYzMjY2MTE1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.4+build(15E65)&version=11020201&pass_ticket=rsJxex9Bn1eN7iJgW6FUI2KG3V9O6e3TH42j1U%2Fy5SU%3D
