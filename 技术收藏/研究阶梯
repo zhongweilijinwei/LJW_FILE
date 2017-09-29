@@ -280,12 +280,13 @@ http://www.jianshu.com/p/5994c2db1557
 
 
 28 RXjava/RXAndroid
+http://gank.io/post/560e15be2dca930e00da1083   //给 Android 开发者的 RxJava 详解
 https://juejin.im/entry/5806babe0e3dd9005724f68d    //综合 有视频 有文章  有demo
 http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0430/2815.html  //RXjava 和RXandroid 讲解
 http://rxjava.yuxingxin.com/ //RXjava 摘要 中文翻译
-http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0701/3125.html //RXjava 详解
 https://blog.piasy.com/AdvancedRxJava/archive/                     //各个要素解析
 http://www.androidweekly.cn/android-dev-special-weekly-rxjava-rxandroid-issue-1/    //系列
+
 
 29 程序分析
 http://www.jianshu.com/p/a8850e7cbac2?utm_source=androidweekly.cn&utm_medium=website   //视图层级实时分析
