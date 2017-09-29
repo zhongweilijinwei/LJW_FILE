@@ -75,8 +75,11 @@ http://www.tuicool.com/articles/MBf63u3      //Dagger2 入门 2
 
     前面也提到Scope的一些基本概念，那Scope的真正用处就在于Component的组织。
 
-    更好的管理Component之间的组织方式，不管是依赖方式还是包含方式，都有必要用自定义的Scope注解标注这些Component，这些注解最好不要一样了，不一样是为了能更好的体现出Component之间的组织方式。还有编译器检查有依赖关系或包含关系的Component，若发现有Component没有用自定义Scope注解标注，则会报错。
-    更好的管理Component与Module之间的匹配关系，编译器会检查 Component管理的Modules，若发现标注Component的自定义Scope注解与Modules中的标注创建类实例方法的注解不一样，就会报错。
+    更好的管理Component之间的组织方式，不管是依赖方式还是包含方式，都有必要用自定义的Scope注解标注这些Component，
+    这些注解最好不要一样了，不一样是为了能更好的体现出Component之间的组织方式。还有编译器检查有依赖关系或包含关系的Component，
+    若发现有Component没有用自定义Scope注解标注，则会报错。
+    更好的管理Component与Module之间的匹配关系，编译器会检查 Component管理的Modules，
+    若发现标注Component的自定义Scope注解与Modules中的标注创建类实例方法的注解不一样，就会报错。
     可读性提高，如用Singleton标注全局类，这样让程序猿立马就能明白这类是全局单例类。
 
 ###组织Component
