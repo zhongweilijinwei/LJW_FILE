@@ -288,7 +288,23 @@ https://juejin.im/entry/5806babe0e3dd9005724f68d    //综合 有视频 有文章
 http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0430/2815.html  //RXjava 和RXandroid 讲解
 http://rxjava.yuxingxin.com/ //RXjava 摘要 中文翻译
 https://blog.piasy.com/AdvancedRxJava/archive/                     //各个要素解析
-http://www.androidweekly.cn/android-dev-special-weekly-rxjava-rxandroid-issue-1/    //系列
+
+//系列的罗列者
+https://mp.weixin.qq.com/s/UAEgdC2EtqSpEqvog0aoZQ
+//系列
+http://www.androidweekly.cn/android-dev-special-weekly-rxjava-rxandroid-issue-1/    
+//基础到上手
+http://www.jianshu.com/u/c50b715ccaeb  
+https://github.com/nanchen2251/RxJava2Examples   
+//操作符的用法和源码分析
+http://blog.csdn.net/johnny901114/article/details/51524470
+//给力的开源项目
+https://github.com/amitshekhariitbhu/RxJava2-Android-Samples
+//该项目的记录，方便速查：
+http://www.jianshu.com/p/2ddd9bb8b1d7
+//实战系列
+http://www.jianshu.com/p/c935d0860186
+
 
 
 29 程序分析
