@@ -233,6 +233,9 @@ http://mp.weixin.qq.com/s/qHm_dJBhVbv0pJs8Crp77w         //H5 和移动端 WebVi
 20 通知栏 和状态栏 研究
 http://iluhcm.com/2017/03/12/experience-of-adapting-to-android-notifications/index.html     //Android通知栏介绍与适配总结 
 http://www.jianshu.com/p/dc20e98b9a90?utm_source=tuicool&utm_medium=referral                //Android 沉浸式状态栏的实现
+https://github.com/gyf-dev/ImmersionBar                                                     //封装库
+
+
 
 21 视频研究
 https://github.com/zhongweilijinwei/JieCaoVideoPlayer/blob/develop/README-ZH.md              //牛逼的开源库
