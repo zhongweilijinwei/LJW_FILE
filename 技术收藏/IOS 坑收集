@@ -9,3 +9,16 @@
 6,****某个工程引用一些库， 不管这个工程师库工程还是可允许工程，一定要当做可运行工程一样配置项目配置项 比如-Cbjo 
 
 7,项目引用动态库 要在Embedded Binary 中配置，并且 Runpath Search Paths 也要配置
+
+
+
+
+
+一,在集成 永聚 sdk 的时候一启动app 就闪退。 
+报错信息+[WXApi registerApp:withDescription:]: unrecognized selector sent to class 0x10132d1c0
+
+解答：这个主要是永聚 sdk 在初始化微信服务的时候出现的问题。原因估计是libWeChatSDK.a 
+ 文件没有连接上。
+ 
+ 当时解决：在Link Binary With Libraries 中去掉libWeChatSDK.a 的引用。 然后在Other Linker Flags 加上全路径连接
+ "$(SRCROOT)/JJRHSdk/YJ_sdk_third_framework/Wechat/libWeChatSDK.a"  就可以运行了
