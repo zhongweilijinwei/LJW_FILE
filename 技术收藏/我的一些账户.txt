@@ -80,3 +80,6 @@ vpn1:
 Your login: li_jin_wei_1995@163.com
 Your password: 91xwe9e
 
+vpn2:
+Your login: 1368104326@qq.com
+Your password: eeet64u
