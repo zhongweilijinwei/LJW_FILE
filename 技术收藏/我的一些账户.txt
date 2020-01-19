@@ -133,6 +133,7 @@ http://guba.eastmoney.com/（股吧） 13826088717  lihao.....
 企业微信：lijingwei@heitao.com Jv4fJQmS  Lihao123
 lijinwei Jv4fJQmS VPN
 market.admin.51.com  93018   Jv4fJQmS
+ssh://git@192.168.57.191:5154/android.sdk.wuming
 
 Oracle：
 1368104326@qq.com   Lihao123....
