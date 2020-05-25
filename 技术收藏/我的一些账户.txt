@@ -134,6 +134,8 @@ http://guba.eastmoney.com/（股吧） 13826088717  lihao.....
 lijinwei Jv4fJQmS VPN
 market.admin.51.com  93018   Jv4fJQmS
 ssh://git@192.168.57.191:5154/android.sdk.wuming
+发行后台： http://sso.wuming.com/    admin   admin123
+
 
 Oracle：
 1368104326@qq.com   Lihao123....
